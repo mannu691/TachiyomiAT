@@ -167,6 +167,8 @@ class MangaScreen(
             onChapterSelected = screenModel::toggleSelection,
             onAllChapterSelected = screenModel::toggleAllSelection,
             onInvertSelection = screenModel::invertSelection,
+            onTranslateChapter = screenModel::runChapterTranslateActions,
+            translationEnabled = screenModel.translationEnabled,
         )
 
         var showScanlatorsDialog by remember { mutableStateOf(false) }

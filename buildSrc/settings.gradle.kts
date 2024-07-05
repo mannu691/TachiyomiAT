@@ -15,4 +15,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mihon-buildSrc"
+rootProject.name = "TachiyomiAT-buildSrc"
