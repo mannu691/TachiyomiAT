@@ -383,7 +383,7 @@ class DownloadCache(
         return sourceManager.getOnlineSources() + sourceManager.getStubSources()
     }
 
-    private fun notifyChanges() {
+    fun notifyChanges() {
         scope.launchNonCancellable {
             _changes.send(Unit)
         }

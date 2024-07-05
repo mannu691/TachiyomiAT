@@ -8,9 +8,11 @@ import eu.kanade.tachiyomi.source.online.HttpSource
 import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
 import mihon.core.archive.archiveReader
 import mihon.core.archive.epubReader
+import eu.kanade.translation.TranslationManager
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.core.common.util.lang.withIOContext
 import tachiyomi.core.common.util.system.logcat
+import tachiyomi.domain.download.service.DownloadPreferences
 import tachiyomi.domain.manga.model.Manga
 import tachiyomi.domain.source.model.StubSource
 import tachiyomi.i18n.MR
@@ -26,6 +28,9 @@ class ChapterLoader(
     private val downloadProvider: DownloadProvider,
     private val manga: Manga,
     private val source: Source,
+    private val downloadPreferences: DownloadPreferences,
+    private val translationManager: TranslationManager,
+
 ) {
 
     /**
@@ -90,7 +95,7 @@ class ChapterLoader(
                 manga,
                 source,
                 downloadManager,
-                downloadProvider,
+                downloadProvider,translationManager
             )
             source is LocalSource -> source.getFormat(chapter.chapter).let { format ->
                 when (format) {
