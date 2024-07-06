@@ -21,6 +21,7 @@ import eu.kanade.tachiyomi.network.JavaScriptEngine
 import eu.kanade.tachiyomi.network.NetworkHelper
 import eu.kanade.tachiyomi.source.AndroidSourceManager
 import eu.kanade.translation.TranslationManager
+import eu.kanade.translation.TranslationProvider
 import io.requery.android.database.sqlite.RequerySQLiteOpenHelperFactory
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.protobuf.ProtoBuf
@@ -135,7 +136,9 @@ class AppModule(val app: Application) : InjektModule {
         addSingletonFactory { LocalCoverManager(app, get()) }
         addSingletonFactory { StorageManager(app, get()) }
         //TachiyomiAT
+        addSingletonFactory {  TranslationProvider(app) }
         addSingletonFactory { TranslationManager(app) }
+
 
         // Asynchronously init expensive components for a faster cold start
         ContextCompat.getMainExecutor(app).execute {
