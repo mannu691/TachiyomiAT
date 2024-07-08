@@ -140,6 +140,7 @@ class KitsuApi(private val client: OkHttpClient, interceptor: KitsuInterceptor) 
                 .awaitSuccess()
         }
     }
+
     suspend fun search(query: String): List<TrackSearch> {
         return withIOContext {
             with(json) {

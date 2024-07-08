@@ -77,6 +77,7 @@ internal fun PreferenceItem(
                     },
                 )
             }
+
             is Preference.PreferenceItem.SliderPreference -> {
                 // TODO: use different composable?
                 SliderItem(
@@ -92,6 +93,7 @@ internal fun PreferenceItem(
                     },
                 )
             }
+
             is Preference.PreferenceItem.ListPreference<*> -> {
                 val value by item.pref.collectAsState()
                 ListPreferenceWidget(
@@ -109,6 +111,7 @@ internal fun PreferenceItem(
                     },
                 )
             }
+
             is Preference.PreferenceItem.BasicListPreference -> {
                 ListPreferenceWidget(
                     value = item.value,
@@ -119,6 +122,7 @@ internal fun PreferenceItem(
                     onValueChange = { scope.launch { item.onValueChanged(it) } },
                 )
             }
+
             is Preference.PreferenceItem.MultiSelectListPreference -> {
                 val values by item.pref.collectAsState()
                 MultiSelectListPreferenceWidget(
@@ -133,6 +137,7 @@ internal fun PreferenceItem(
                     },
                 )
             }
+
             is Preference.PreferenceItem.TextPreference -> {
                 TextPreferenceWidget(
                     title = item.title,
@@ -141,6 +146,7 @@ internal fun PreferenceItem(
                     onPreferenceClick = item.onClick,
                 )
             }
+
             is Preference.PreferenceItem.EditTextPreference -> {
                 val values by item.pref.collectAsState()
                 EditTextPreferenceWidget(
@@ -155,6 +161,7 @@ internal fun PreferenceItem(
                     },
                 )
             }
+
             is Preference.PreferenceItem.TrackerPreference -> {
                 val uName by Injekt.get<TrackPreferences>()
                     .trackUsername(item.tracker)
@@ -167,9 +174,11 @@ internal fun PreferenceItem(
                     )
                 }
             }
+
             is Preference.PreferenceItem.InfoPreference -> {
                 InfoWidget(text = item.title)
             }
+
             is Preference.PreferenceItem.CustomPreference -> {
                 item.content(item)
             }

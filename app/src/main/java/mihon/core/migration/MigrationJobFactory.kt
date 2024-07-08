@@ -9,7 +9,7 @@ import tachiyomi.core.common.util.system.logcat
 
 class MigrationJobFactory(
     private val migrationContext: MigrationContext,
-    private val scope: CoroutineScope
+    private val scope: CoroutineScope,
 ) {
 
     @SuppressWarnings("MaxLineLength")

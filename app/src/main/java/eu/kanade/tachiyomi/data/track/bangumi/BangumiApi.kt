@@ -121,7 +121,7 @@ class BangumiApi(
         }
     }
 
-    suspend fun findLibManga(track: Track): Track? {
+    suspend fun findLibManga(track: Track): Track {
         return withIOContext {
             with(json) {
                 authClient.newCall(GET("$apiUrl/subject/${track.remote_id}"))

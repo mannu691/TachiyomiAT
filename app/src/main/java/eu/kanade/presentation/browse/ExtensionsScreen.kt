@@ -112,6 +112,7 @@ fun ExtensionScreen(
                     ),
                 )
             }
+
             else -> {
                 ExtensionContent(
                     state = state,
@@ -191,6 +192,7 @@ private fun ExtensionContent(
                             action = action,
                         )
                     }
+
                     is ExtensionUiModel.Header.Text -> {
                         ExtensionHeader(
                             text = header.text,
@@ -218,7 +220,9 @@ private fun ExtensionContent(
                         when (it) {
                             is Extension.Available -> onInstallExtension(it)
                             is Extension.Installed -> onOpenExtension(it)
-                            is Extension.Untrusted -> { trustState = it }
+                            is Extension.Untrusted -> {
+                                trustState = it
+                            }
                         }
                     },
                     onLongClickItem = onLongClickItem,
@@ -240,7 +244,10 @@ private fun ExtensionContent(
                                     onOpenExtension(it)
                                 }
                             }
-                            is Extension.Untrusted -> { trustState = it }
+
+                            is Extension.Untrusted -> {
+                                trustState = it
+                            }
                         }
                     },
                 )
@@ -415,6 +422,7 @@ private fun ExtensionItemActions(
                     )
                 }
             }
+
             installStep == InstallStep.Error -> {
                 IconButton(onClick = { onClickItemAction(extension) }) {
                     Icon(
@@ -423,6 +431,7 @@ private fun ExtensionItemActions(
                     )
                 }
             }
+
             installStep == InstallStep.Idle -> {
                 when (extension) {
                     is Extension.Installed -> {
@@ -442,6 +451,7 @@ private fun ExtensionItemActions(
                             }
                         }
                     }
+
                     is Extension.Untrusted -> {
                         IconButton(onClick = { onClickItemAction(extension) }) {
                             Icon(
@@ -450,6 +460,7 @@ private fun ExtensionItemActions(
                             )
                         }
                     }
+
                     is Extension.Available -> {
                         if (extension.sources.isNotEmpty()) {
                             IconButton(

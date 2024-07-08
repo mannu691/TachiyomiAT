@@ -10,7 +10,7 @@ import eu.kanade.tachiyomi.source.Source
 import eu.kanade.tachiyomi.source.model.Page
 import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
 import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.translation.TextTranslation
+import eu.kanade.translation.TextTranslations
 import eu.kanade.translation.TranslationManager
 import mihon.core.common.archive.archiveReader
 import tachiyomi.core.common.i18n.stringResource
@@ -39,11 +39,9 @@ internal class DownloadPageLoader(
     override suspend fun getPages(): List<ReaderPage> {
         val dbChapter = chapter.chapter
         val chapterPath = downloadProvider.findChapterDir(dbChapter.name, dbChapter.scanlator, manga.title, source)
-        return if (chapterPath?.isFile == true) {
-            getPagesFromArchive(chapterPath)
-        } else {
-            getPagesFromDirectory()
-        }
+
+        val pages = if (chapterPath?.isFile == true) getPagesFromArchive(chapterPath) else getPagesFromDirectory()
+        return pages
     }
 
     override fun recycle() {
@@ -52,7 +50,13 @@ internal class DownloadPageLoader(
     }
 
     private suspend fun getPagesFromArchive(file: UniFile): List<ReaderPage> {
-        val loader = ArchivePageLoader(file.archiveReader(context)).also { archivePageLoader = it }
+        val loader = ArchivePageLoader(
+            file.archiveReader(context),
+            chapter,
+            manga,
+            source,
+            translationManager,
+        ).also { archivePageLoader = it }
         return loader.getPages()
     }
 
@@ -70,30 +74,25 @@ internal class DownloadPageLoader(
         if (files.isEmpty()) {
             throw Exception(context.stringResource(MR.strings.page_list_empty_error))
         }
+        val pageTranslations: Map<String, TextTranslations> = translationManager.getChapterTranslation(
+            chapter.chapter.name,
+            chapter.chapter.scanlator,
+            manga.title,
+            source,
+        )
         val pages = files.mapIndexed { i, file ->
             Page(i, uri = file.uri).apply {
                 status = Page.State.READY
             }
         }
-        //Load Translations
-        val pageTranslations: Map<String, List<TextTranslation>>? =translationManager.getChapterTranslation(chapter.chapter.name,chapter.chapter.scanlator,manga.title,source)
-        if (pageTranslations!=null) {
-            return pages.mapIndexed{i,page ->
-                ReaderPage(page.index, page.url, page.imageUrl, translations = pageTranslations[files[i].name!!]) {
-                    context.contentResolver.openInputStream(page.uri ?: Uri.EMPTY)!!
-                }.apply {
-                    status = Page.State.READY
-                }
-            }
-        } else {
-            return pages.map { page ->
-                ReaderPage(page.index, page.url, page.imageUrl) {
-                    context.contentResolver.openInputStream(page.uri ?: Uri.EMPTY)!!
-                }.apply {
-                    status = Page.State.READY
-                }
+        return pages.mapIndexed { i, page ->
+            ReaderPage(page.index, page.url, page.imageUrl, translations = pageTranslations[files[i].name]) {
+                context.contentResolver.openInputStream(page.uri ?: Uri.EMPTY)!!
+            }.apply {
+                status = Page.State.READY
             }
         }
+
 
     }
 

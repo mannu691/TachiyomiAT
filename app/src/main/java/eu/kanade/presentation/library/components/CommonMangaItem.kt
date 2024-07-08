@@ -371,7 +371,7 @@ fun MangaListItem(
                 size = ContinueReadingButtonSizeSmall,
                 iconSize = ContinueReadingButtonIconSizeSmall,
                 onClick = onClickContinueReading,
-                modifier = Modifier.padding(start = ContinueReadingButtonListSpacing)
+                modifier = Modifier.padding(start = ContinueReadingButtonListSpacing),
             )
         }
     }
@@ -392,7 +392,7 @@ private fun ContinueReadingButton(
                 containerColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.9f),
                 contentColor = contentColorFor(MaterialTheme.colorScheme.primaryContainer),
             ),
-            modifier = Modifier.size(size)
+            modifier = Modifier.size(size),
         ) {
             Icon(
                 imageVector = Icons.Filled.PlayArrow,

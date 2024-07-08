@@ -39,7 +39,7 @@ fun CalendarDay(
                     Modifier.border(
                         border = BorderStroke(
                             width = 1.dp,
-                            color = MaterialTheme.colorScheme.onBackground
+                            color = MaterialTheme.colorScheme.onBackground,
                         ),
                         shape = CircleShape,
                     )

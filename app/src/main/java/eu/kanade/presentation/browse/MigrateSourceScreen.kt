@@ -57,6 +57,7 @@ fun MigrateSourceScreen(
             stringRes = MR.strings.information_empty_library,
             modifier = Modifier.padding(contentPadding),
         )
+
         else ->
             MigrateSourceList(
                 list = state.items,
@@ -107,6 +108,7 @@ private fun MigrateSourceList(
                             Icons.Outlined.SortByAlpha,
                             contentDescription = stringResource(MR.strings.action_sort_alpha),
                         )
+
                         SetMigrateSorting.Mode.TOTAL -> Icon(
                             Icons.Outlined.Numbers,
                             contentDescription = stringResource(MR.strings.action_sort_count),
@@ -119,6 +121,7 @@ private fun MigrateSourceList(
                             Icons.Outlined.ArrowUpward,
                             contentDescription = stringResource(MR.strings.action_asc),
                         )
+
                         SetMigrateSorting.Direction.DESCENDING -> Icon(
                             Icons.Outlined.ArrowDownward,
                             contentDescription = stringResource(MR.strings.action_desc),

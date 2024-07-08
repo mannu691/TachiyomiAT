@@ -139,6 +139,7 @@ private fun UpcomingScreenSmallImpl(
                         onClick = { onClickUpcoming(item.manga) },
                     )
                 }
+
                 is UpcomingUIModel.Header -> {
                     ListGroupHeader(text = relativeDateText(item.date))
                 }
@@ -187,6 +188,7 @@ private fun UpcomingScreenLargeImpl(
                                 onClick = { onClickUpcoming(item.manga) },
                             )
                         }
+
                         is UpcomingUIModel.Header -> {
                             ListGroupHeader(text = relativeDateText(item.date))
                         }

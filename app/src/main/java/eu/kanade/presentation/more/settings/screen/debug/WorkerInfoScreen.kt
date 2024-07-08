@@ -159,7 +159,7 @@ class WorkerInfoScreen : Screen() {
                                     Injekt.get<UiPreferences>().dateFormat().get(),
                                 ),
                             )
-                        appendLine("Next scheduled run: $timestamp",)
+                        appendLine("Next scheduled run: $timestamp")
                         appendLine("Attempt #${workInfo.runAttemptCount + 1}")
                     }
                     appendLine()

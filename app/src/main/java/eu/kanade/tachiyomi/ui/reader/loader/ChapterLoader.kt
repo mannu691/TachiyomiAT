@@ -30,7 +30,7 @@ class ChapterLoader(
     private val downloadPreferences: DownloadPreferences,
     private val translationManager: TranslationManager,
 
-) {
+    ) {
 
     /**
      * Assigns the chapter's page loader and loads the its pages. Returns immediately if the chapter
@@ -94,15 +94,20 @@ class ChapterLoader(
                 manga,
                 source,
                 downloadManager,
-                downloadProvider,translationManager
+                downloadProvider, translationManager,
             )
+
             source is LocalSource -> source.getFormat(chapter.chapter).let { format ->
                 when (format) {
                     is Format.Directory -> DirectoryPageLoader(format.file)
-                    is Format.Archive -> ArchivePageLoader(format.file.archiveReader(context))
+                    is Format.Archive -> ArchivePageLoader(
+                        format.file.archiveReader(context),
+                    )
+
                     is Format.Epub -> EpubPageLoader(format.file.archiveReader(context))
                 }
             }
+
             source is HttpSource -> HttpPageLoader(chapter, source)
             source is StubSource -> error(context.stringResource(MR.strings.source_not_installed, source.toString()))
             else -> error(context.stringResource(MR.strings.loader_not_implemented_error))

@@ -70,6 +70,7 @@ class AppModule(val app: Application) : InjektModule {
                         setPragma(db, "journal_mode = WAL")
                         setPragma(db, "synchronous = NORMAL")
                     }
+
                     private fun setPragma(db: SupportSQLiteDatabase, pragma: String) {
                         val cursor = db.query("PRAGMA $pragma")
                         cursor.moveToFirst()
@@ -136,7 +137,7 @@ class AppModule(val app: Application) : InjektModule {
         addSingletonFactory { LocalCoverManager(app, get()) }
         addSingletonFactory { StorageManager(app, get()) }
         //TachiyomiAT
-        addSingletonFactory {  TranslationProvider(app) }
+        addSingletonFactory { TranslationProvider(app) }
         addSingletonFactory { TranslationManager(app) }
 
 

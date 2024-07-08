@@ -290,6 +290,7 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
                                             is SourceNotInstalledException -> context.stringResource(
                                                 MR.strings.loader_not_implemented_error,
                                             )
+
                                             else -> e.message
                                         }
                                         failedUpdates.add(manga to errorMessage)
@@ -404,7 +405,8 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
                 }
                 return file
             }
-        } catch (_: Exception) {}
+        } catch (_: Exception) {
+        }
         return File("")
     }
 
@@ -437,7 +439,9 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
                 val constraints = Constraints(
                     requiredNetworkType = if (DEVICE_NETWORK_NOT_METERED in restrictions) {
                         NetworkType.UNMETERED
-                    } else { NetworkType.CONNECTED },
+                    } else {
+                        NetworkType.CONNECTED
+                    },
                     requiresCharging = DEVICE_CHARGING in restrictions,
                     requiresBatteryNotLow = true,
                 )

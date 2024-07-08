@@ -64,13 +64,17 @@ class ExtensionsScreenModel(
                                     it.id == input.toLongOrNull()
                             } || extension.name.contains(input, ignoreCase = true)
                         }
+
                         is Extension.Installed -> {
                             extension.sources.any {
                                 it.name.contains(input, ignoreCase = true) ||
                                     it.id == input.toLongOrNull() ||
-                                    if (it is HttpSource) { it.baseUrl.contains(input, ignoreCase = true) } else false
+                                    if (it is HttpSource) {
+                                        it.baseUrl.contains(input, ignoreCase = true)
+                                    } else false
                             } || extension.name.contains(input, ignoreCase = true)
                         }
+
                         is Extension.Untrusted -> extension.name.contains(input, ignoreCase = true)
                     }
                 }

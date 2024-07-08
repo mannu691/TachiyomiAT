@@ -230,6 +230,7 @@ data class BrowseSourceScreen(
                                     duplicateManga,
                                 ),
                             )
+
                             else -> screenModel.addFavorite(manga)
                         }
                         haptic.performHapticFeedback(HapticFeedbackType.LongPress)
@@ -249,6 +250,7 @@ data class BrowseSourceScreen(
                     onUpdate = screenModel::setFilters,
                 )
             }
+
             is BrowseSourceScreenModel.Dialog.AddDuplicateManga -> {
                 DuplicateMangaDialog(
                     onDismissRequest = onDismissRequest,
@@ -272,6 +274,7 @@ data class BrowseSourceScreen(
                     },
                 )
             }
+
             is BrowseSourceScreenModel.Dialog.RemoveManga -> {
                 RemoveMangaDialog(
                     onDismissRequest = onDismissRequest,
@@ -281,6 +284,7 @@ data class BrowseSourceScreen(
                     mangaToRemove = dialog.manga,
                 )
             }
+
             is BrowseSourceScreenModel.Dialog.ChangeMangaCategory -> {
                 ChangeCategoryDialog(
                     initialSelection = dialog.initialSelection,
@@ -292,6 +296,7 @@ data class BrowseSourceScreen(
                     },
                 )
             }
+
             else -> {}
         }
 

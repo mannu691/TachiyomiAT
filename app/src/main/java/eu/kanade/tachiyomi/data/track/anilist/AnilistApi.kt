@@ -135,6 +135,7 @@ class AnilistApi(val client: OkHttpClient, interceptor: AnilistInterceptor) {
                 .awaitSuccess()
         }
     }
+
     suspend fun search(search: String): List<TrackSearch> {
         return withIOContext {
             val query = """

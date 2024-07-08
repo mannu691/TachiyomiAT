@@ -11,11 +11,15 @@ import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
 import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
 import eu.kanade.tachiyomi.ui.reader.viewer.calculateChapterGap
 import eu.kanade.tachiyomi.util.system.createReaderThemeContext
+import eu.kanade.translation.TranslationManager
+import uy.kohesive.injekt.Injekt
+import uy.kohesive.injekt.api.get
 
 /**
  * RecyclerView Adapter used by this [viewer] to where [ViewerChapters] updates are posted.
  */
-class WebtoonAdapter(val viewer: WebtoonViewer) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class WebtoonAdapter(val viewer: WebtoonViewer, private val translationManager: TranslationManager = Injekt.get()) :
+    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     /**
      * List of currently set items.
@@ -117,12 +121,14 @@ class WebtoonAdapter(val viewer: WebtoonViewer) : RecyclerView.Adapter<RecyclerV
         return when (viewType) {
             PAGE_VIEW -> {
                 val view = ReaderPageImageView(readerThemedContext, isWebtoon = true)
-                WebtoonPageHolder(view, viewer)
+                WebtoonPageHolder(view, viewer, font = translationManager.font)
             }
+
             TRANSITION_VIEW -> {
                 val view = LinearLayout(readerThemedContext)
                 WebtoonTransitionHolder(view, viewer)
             }
+
             else -> error("Unknown view type")
         }
     }

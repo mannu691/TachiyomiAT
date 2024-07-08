@@ -54,7 +54,7 @@ fun Calendar(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = MaterialTheme.padding.small)
-                .padding(start = MaterialTheme.padding.medium)
+                .padding(start = MaterialTheme.padding.medium),
         )
         CalendarGrid(
             selectedYearMonth = selectedYearMonth,
@@ -86,7 +86,7 @@ private fun CalendarGrid(
             Modifier.widthIn(max = 360.dp)
         } else {
             Modifier
-        }
+        },
     ) {
         weekDays.fastForEach { item ->
             Text(

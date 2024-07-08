@@ -186,6 +186,7 @@ private fun SearchResult(
                                     emptySequence()
                                 }
                             }
+
                             is Preference.PreferenceItem<*> -> sequenceOf(null to p)
                         }
                     }
@@ -224,6 +225,7 @@ private fun SearchResult(
             it.isEmpty() -> {
                 EmptyScreen(stringResource(MR.strings.no_results_found))
             }
+
             else -> {
                 LazyColumn(
                     modifier = modifier.fillMaxSize(),
