@@ -54,6 +54,14 @@ Discover,Translate and read manga, webtoons, comics, and more – easier than ev
   
 </div>  
 
+## Translation Comparison
+
+Source : Tian Zuan : Chapter 615
+| Gemini | Google Translate  | MLKit (On Device) | Raw  |
+| ------------- | ------------- | ------------- | ------------- |
+| ![ManhuaPlus](./.github/assets/gemini.png)  | ![Gemini](./.github/assets/gt.png)  | ![GoogleTranslate](./.github/assets/mlkit.png)  | ![mlkit](./.github/assets/raw.png)  |
+
+
 ## Before You Begin
 
 <div align="left">
