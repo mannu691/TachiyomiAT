@@ -35,11 +35,13 @@ Discover,Translate and read manga, webtoons, comics, and more – easier than ev
 ## Supported Languages
 
 <div align="left">
+    
 * Chinese
 * Korean
 * Japanase
 
 > You can Translate From These to Any  Other Language
+> 
 </div>  
 
 ## Available Translators
