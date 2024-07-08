@@ -10,12 +10,18 @@ import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
 import eu.kanade.tachiyomi.ui.reader.viewer.calculateChapterGap
 import eu.kanade.tachiyomi.util.system.createReaderThemeContext
 import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.kanade.translation.TranslationManager
 import tachiyomi.core.common.util.system.logcat
+import uy.kohesive.injekt.Injekt
+import uy.kohesive.injekt.api.get
 
 /**
  * Pager adapter used by this [viewer] to where [ViewerChapters] updates are posted.
  */
-class PagerViewerAdapter(private val viewer: PagerViewer) : ViewPagerAdapter() {
+class PagerViewerAdapter(
+    private val viewer: PagerViewer,
+    private val translationManager: TranslationManager = Injekt.get(),
+) : ViewPagerAdapter() {
 
     /**
      * List of currently set items.
@@ -139,7 +145,7 @@ class PagerViewerAdapter(private val viewer: PagerViewer) : ViewPagerAdapter() {
      */
     override fun createView(container: ViewGroup, position: Int): View {
         return when (val item = items[position]) {
-            is ReaderPage -> PagerPageHolder(readerThemedContext, viewer, item)
+            is ReaderPage -> PagerPageHolder(readerThemedContext, viewer, item, font = translationManager.font)
             is ChapterTransition -> PagerTransitionHolder(readerThemedContext, viewer, item)
             else -> throw NotImplementedError("Holder for ${item.javaClass} not implemented")
         }
@@ -175,6 +181,7 @@ class PagerViewerAdapter(private val viewer: PagerViewer) : ViewPagerAdapter() {
             is L2RPagerViewer,
             is VerticalPagerViewer,
             -> currentIndex + 1
+
             else -> currentIndex
         }
 
@@ -194,7 +201,7 @@ class PagerViewerAdapter(private val viewer: PagerViewer) : ViewPagerAdapter() {
     }
 
     fun cleanupPageSplit() {
-        val insertPages = items.filterIsInstance(InsertPage::class.java)
+        val insertPages = items.filterIsInstance<InsertPage>()
         items.removeAll(insertPages)
         notifyDataSetChanged()
     }

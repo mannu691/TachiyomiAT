@@ -58,6 +58,7 @@ class ExtensionReposScreenModel(
                 is CreateExtensionRepo.Result.DuplicateFingerprint -> {
                     showDialog(RepoDialog.Conflict(result.oldRepo, result.newRepo))
                 }
+
                 else -> {}
             }
         }

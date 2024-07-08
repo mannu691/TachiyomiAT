@@ -84,6 +84,7 @@ object UpdatesTab : Tab {
                     onConfirm = { screenModel.deleteChapters(dialog.toDelete) },
                 )
             }
+
             null -> {}
         }
 
@@ -93,6 +94,7 @@ object UpdatesTab : Tab {
                     Event.InternalError -> screenModel.snackbarHostState.showSnackbar(
                         context.stringResource(MR.strings.internal_error),
                     )
+
                     is Event.LibraryUpdateTriggered -> {
                         val msg = if (event.started) {
                             MR.strings.updating_library

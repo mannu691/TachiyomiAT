@@ -288,6 +288,7 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
                                             is SourceNotInstalledException -> context.stringResource(
                                                 MR.strings.loader_not_implemented_error,
                                             )
+
                                             else -> e.message
                                         }
                                         failedUpdates.add(manga to errorMessage)
@@ -402,7 +403,8 @@ class LibraryUpdateJob(private val context: Context, workerParams: WorkerParamet
                 }
                 return file
             }
-        } catch (_: Exception) {}
+        } catch (_: Exception) {
+        }
         return File("")
     }
 

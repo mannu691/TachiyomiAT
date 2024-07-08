@@ -52,6 +52,7 @@ fun SourcesScreen(
             stringRes = MR.strings.source_empty_screen,
             modifier = Modifier.padding(contentPadding),
         )
+
         else -> {
             ScrollbarLazyColumn(
                 contentPadding = contentPadding + topSmallPaddingValues,
@@ -78,6 +79,7 @@ fun SourcesScreen(
                                 language = model.language,
                             )
                         }
+
                         is SourceUiModel.Item -> SourceItem(
                             modifier = Modifier.animateItem(),
                             source = model.source,

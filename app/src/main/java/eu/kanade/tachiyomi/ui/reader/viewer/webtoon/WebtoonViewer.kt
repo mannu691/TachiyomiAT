@@ -215,7 +215,7 @@ class WebtoonViewer(val activity: ReaderActivity, val isContinuous: Boolean = tr
         if (inPreloadRange && allowPreload && page.chapter == adapter.currentChapter) {
             logcat { "Request preload next chapter because we're at page ${page.number} of ${pages.size}" }
             val nextItem = adapter.items.getOrNull(adapter.items.size - 1)
-            val transitionChapter = (nextItem as? ChapterTransition.Next)?.to ?: (nextItem as?ReaderPage)?.chapter
+            val transitionChapter = (nextItem as? ChapterTransition.Next)?.to ?: (nextItem as? ReaderPage)?.chapter
             if (transitionChapter != null) {
                 logcat { "Requesting to preload chapter ${transitionChapter.chapter.chapter_number}" }
                 activity.requestPreloadChapter(transitionChapter)
@@ -316,6 +316,7 @@ class WebtoonViewer(val activity: ReaderActivity, val isContinuous: Boolean = tr
                     if (!config.volumeKeysInverted) scrollDown() else scrollUp()
                 }
             }
+
             KeyEvent.KEYCODE_VOLUME_UP -> {
                 if (!config.volumeKeysEnabled || activity.viewModel.state.value.menuVisible) {
                     return false
@@ -323,6 +324,7 @@ class WebtoonViewer(val activity: ReaderActivity, val isContinuous: Boolean = tr
                     if (!config.volumeKeysInverted) scrollUp() else scrollDown()
                 }
             }
+
             KeyEvent.KEYCODE_MENU -> if (isUp) activity.toggleMenu()
 
             KeyEvent.KEYCODE_DPAD_LEFT,
@@ -334,6 +336,7 @@ class WebtoonViewer(val activity: ReaderActivity, val isContinuous: Boolean = tr
             KeyEvent.KEYCODE_DPAD_DOWN,
             KeyEvent.KEYCODE_PAGE_DOWN,
             -> if (isUp) scrollDown()
+
             else -> return false
         }
         return true

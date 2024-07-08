@@ -52,27 +52,30 @@ fun ChapterDownloadIndicator(
     downloadStateProvider: () -> Download.State,
     downloadProgressProvider: () -> Int,
     onClick: (ChapterDownloadAction) -> Unit,
-    modifier: Modifier = Modifier,translationEnabled: Boolean =false
+    modifier: Modifier = Modifier, translationEnabled: Boolean = false,
 ) {
     when (val downloadState = downloadStateProvider()) {
         Download.State.NOT_DOWNLOADED -> NotDownloadedIndicator(
             enabled = enabled,
             modifier = modifier,
-            onClick = onClick
+            onClick = onClick,
         )
+
         Download.State.QUEUE, Download.State.DOWNLOADING -> DownloadingIndicator(
             enabled = enabled,
             modifier = modifier,
             downloadState = downloadState,
             downloadProgressProvider = downloadProgressProvider,
-            onClick = onClick,  translationEnabled=translationEnabled
+            onClick = onClick, translationEnabled = translationEnabled,
         )
+
         Download.State.DOWNLOADED -> DownloadedIndicator(
             enabled = enabled,
             modifier = modifier,
             onClick = onClick,
 
-        )
+            )
+
         Download.State.ERROR -> ErrorIndicator(
             enabled = enabled,
             modifier = modifier,
@@ -85,7 +88,7 @@ fun ChapterDownloadIndicator(
 private fun NotDownloadedIndicator(
     enabled: Boolean,
     modifier: Modifier = Modifier,
-    onClick: (ChapterDownloadAction) -> Unit
+    onClick: (ChapterDownloadAction) -> Unit,
 ) {
     Box(
         modifier = modifier
@@ -114,7 +117,7 @@ private fun DownloadingIndicator(
     downloadState: Download.State,
     downloadProgressProvider: () -> Int,
     onClick: (ChapterDownloadAction) -> Unit,
-    modifier: Modifier = Modifier,translationEnabled: Boolean =false
+    modifier: Modifier = Modifier, translationEnabled: Boolean = false,
 ) {
     var isMenuExpanded by remember { mutableStateOf(false) }
     Box(
@@ -130,7 +133,7 @@ private fun DownloadingIndicator(
     ) {
         val arrowColor: Color
         val strokeColor = MaterialTheme.colorScheme.onSurfaceVariant
-        var isTranslating = false;
+        var isTranslating = false
         val downloadProgress = downloadProgressProvider()
         val indeterminate = downloadState == Download.State.QUEUE ||
             (downloadState == Download.State.DOWNLOADING && downloadProgress == 0)
@@ -149,7 +152,7 @@ private fun DownloadingIndicator(
                 animationSpec = ProgressIndicatorDefaults.ProgressAnimationSpec,
                 label = "progress",
             )
-            isTranslating= translationEnabled && animatedProgress==1f
+            isTranslating = translationEnabled && animatedProgress == 1f
             if (isTranslating) {
                 arrowColor = strokeColor
                 CircularProgressIndicator(
@@ -159,7 +162,7 @@ private fun DownloadingIndicator(
                     trackColor = Color.Transparent,
                     strokeCap = StrokeCap.Butt,
                 )
-            }else{
+            } else {
                 arrowColor = if (animatedProgress < 0.5f) {
                     strokeColor
                 } else {
@@ -199,7 +202,7 @@ private fun DownloadingIndicator(
                 modifier = ArrowModifier,
                 tint = arrowColor,
             )
-        }else{
+        } else {
             Icon(
                 imageVector = Icons.Outlined.ArrowDownward,
                 contentDescription = null,

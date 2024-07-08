@@ -95,8 +95,9 @@ class ChapterLoader(
                 manga,
                 source,
                 downloadManager,
-                downloadProvider,translationManager
+                downloadProvider, translationManager,
             )
+
             source is LocalSource -> source.getFormat(chapter.chapter).let { format ->
                 when (format) {
                     is Format.Directory -> DirectoryPageLoader(format.file)

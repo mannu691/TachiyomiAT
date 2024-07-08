@@ -47,6 +47,7 @@ fun LibraryToolbar(
         onClickSelectAll = onClickSelectAll,
         onClickInvertSelection = onClickInvertSelection,
     )
+
     else -> LibraryRegularToolbar(
         title = title,
         hasFilters = hasActiveFilters,
