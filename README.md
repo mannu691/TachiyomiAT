@@ -40,25 +40,28 @@ Discover,Translate and read manga, webtoons, comics, and more – easier than ev
 * Japanase
 
 > You can Translate From These to Any  Other Language
->
 </div>  
-## Available Translators
 
+## Available Translators
 <div align="left">
+    
 * MLkit : On Device Translations
 * Google Translate : Web Based
 * Gemini : [Get API Key Here](https://makersuite.google.com/app/apikey "Get API Key Here")
 * OpenRouter: [Get API Key Here](https://openrouter.ai/ "Get API Key Here")
-*
+  
 </div>  
+
 ## Before You Begin
 
 <div align="left">
+    
 1. You can Translate a Chapter after Downloading it , there will be a button beside the download button
 2. You can Turn on Auto Translate to Automatically Start Translating a chapter after it is Translated
 3. For Api Based Translators Please add your own api key in the Settings
 4. Please select the appropriate language you want to translate from and translate to in Settings
 5. For OpenRouter translator you have to also provide the model you want to use in settings default is : google/gemma-2-9b-it:free
+   
 </div>  
 
 ## Contributing
