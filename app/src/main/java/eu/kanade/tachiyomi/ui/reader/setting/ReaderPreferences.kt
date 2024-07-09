@@ -11,6 +11,12 @@ class ReaderPreferences(
     private val preferenceStore: PreferenceStore,
 ) {
 
+    fun showTranslations() = preferenceStore.getBoolean("show_translations", true)
+    fun translationOffsetX() = preferenceStore.getInt("translation_offset_x", 0)
+    fun translationOffsetY() = preferenceStore.getInt("translation_offset_y", 0)
+    fun translationOffsetWidth() = preferenceStore.getInt("translation_offset_width", 0)
+    fun translationOffsetHeight() = preferenceStore.getInt("translation_offset_height", 0)
+    fun translationOffsetPercentage() = preferenceStore.getBoolean("translation_offset_percentage", false)
     // region General
 
     fun pageTransitions() = preferenceStore.getBoolean("pref_enable_transitions_key", true)
@@ -63,7 +69,7 @@ class ReaderPreferences(
 
     fun cropBordersWebtoon() = preferenceStore.getBoolean("crop_borders_webtoon", false)
 
-    fun showTranslations() = preferenceStore.getBoolean("show_translations", true)
+
     fun webtoonSidePadding() = preferenceStore.getInt("webtoon_side_padding", WEBTOON_PADDING_MIN)
 
     fun readerHideThreshold() = preferenceStore.getEnum("reader_hide_threshold", ReaderHideThreshold.LOW)
