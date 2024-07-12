@@ -15,7 +15,7 @@ Discover,Translate and read manga, webtoons, comics, and more – easier than ev
 [![License: Apache-2.0](https://img.shields.io/github/license/mihonapp/mihon?labelColor=27303D&color=0877d2)](/LICENSE)  
 [![Translation status](https://img.shields.io/weblate/progress/mihon?labelColor=27303D&color=946300)](https://hosted.weblate.org/engage/mihon/)
     
-![Discord Banner 3](https://discord.com/api/guilds/801338287012053042/widget.png?style=banner3)
+[![Discord Banner 3](https://discord.com/api/guilds/801338287012053042/widget.png?style=banner3)](https://discord.com/invite/rkvXfVPRdq)
 ## Download
 
 [Download - 0.16.7](https://github.com/mannu691/TachiyomiAT/releases)
