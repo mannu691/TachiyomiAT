@@ -28,7 +28,7 @@ android {
     defaultConfig {
         applicationId = "app.tachiyomi.at"
 
-        versionCode = 9
+        versionCode = 10
         versionName = "0.17.0"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
