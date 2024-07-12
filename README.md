@@ -14,11 +14,11 @@ Discover,Translate and read manga, webtoons, comics, and more – easier than ev
 [![GitHub downloads](https://img.shields.io/github/downloads/mannu691/TachiyomiAT/total?label=downloads&labelColor=27303D&color=0D1117&logo=github&logoColor=FFFFFF&style=flat)](https://github.com/mannu691/TachiyomiAT/releases)  
 [![License: Apache-2.0](https://img.shields.io/github/license/mihonapp/mihon?labelColor=27303D&color=0877d2)](/LICENSE)  
 [![Translation status](https://img.shields.io/weblate/progress/mihon?labelColor=27303D&color=946300)](https://hosted.weblate.org/engage/mihon/)
-
+    
 ![Discord Banner 3](https://discord.com/api/guilds/801338287012053042/widget.png?style=banner3)
 ## Download
 
-[Download - 0.16.5](https://github.com/mannu691/TachiyomiAT/releases)
+[Download - 0.16.7](https://github.com/mannu691/TachiyomiAT/releases)
 
 *Requires Android 8.0 or higher.*
 
