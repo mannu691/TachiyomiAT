@@ -12,7 +12,6 @@ import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
 import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
 import eu.kanade.translation.TextTranslations
 import mihon.core.archive.archiveReader
-import eu.kanade.translation.TextTranslation
 import eu.kanade.translation.TranslationManager
 import tachiyomi.core.common.i18n.stringResource
 import tachiyomi.domain.manga.model.Manga

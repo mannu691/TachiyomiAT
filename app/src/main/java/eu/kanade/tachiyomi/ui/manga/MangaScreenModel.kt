@@ -42,7 +42,6 @@ import eu.kanade.tachiyomi.source.Source
 import eu.kanade.tachiyomi.ui.reader.setting.ReaderPreferences
 import eu.kanade.tachiyomi.util.chapter.getNextUnread
 import eu.kanade.tachiyomi.util.removeCovers
-import eu.kanade.tachiyomi.util.shouldDownloadNewChapters
 import eu.kanade.translation.Translation
 import eu.kanade.translation.TranslationManager
 import eu.kanade.tachiyomi.util.system.toast
@@ -80,6 +79,7 @@ import tachiyomi.domain.chapter.model.ChapterUpdate
 import tachiyomi.domain.chapter.model.NoChaptersException
 import tachiyomi.domain.chapter.service.calculateChapterGap
 import tachiyomi.domain.chapter.service.getChapterSort
+import tachiyomi.domain.download.service.DownloadPreferences
 import tachiyomi.domain.library.service.LibraryPreferences
 import tachiyomi.domain.manga.interactor.GetDuplicateLibraryManga
 import tachiyomi.domain.manga.interactor.GetMangaWithChapters
@@ -106,6 +106,7 @@ class MangaScreenModel(
     private val trackerManager: TrackerManager = Injekt.get(),
     private val trackChapter: TrackChapter = Injekt.get(),
     private val downloadManager: DownloadManager = Injekt.get(),
+    private val downloadPreferences: DownloadPreferences = Injekt.get(),
     private val downloadCache: DownloadCache = Injekt.get(),
     private val getMangaAndChapters: GetMangaWithChapters = Injekt.get(),
     private val getDuplicateLibraryManga: GetDuplicateLibraryManga = Injekt.get(),
