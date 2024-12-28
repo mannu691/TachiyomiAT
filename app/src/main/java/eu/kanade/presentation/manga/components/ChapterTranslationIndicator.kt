@@ -34,7 +34,6 @@ import tachiyomi.presentation.core.components.material.IconButtonTokens
 import tachiyomi.presentation.core.i18n.stringResource
 import tachiyomi.presentation.core.util.secondaryItemAlpha
 
-
 enum class ChapterTranslationAction {
     START,
     CANCEL,
@@ -193,7 +192,6 @@ private fun TranslatedIndicator(
         }
     }
 }
-
 
 @Composable
 private fun ErrorIndicator(

@@ -1,0 +1,2076 @@
+Downloading https://services.gradle.org/distributions/gradle-8.10.2-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.10.2!
+
+Here are the highlights of this release:
+ - Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
+
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Configuration on demand is an incubating feature.
+Type-safe project accessors is an incubating feature.
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
+> Task :buildSrc:generateExternalPluginSpecBuilders
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins
+> Task :buildSrc:compilePluginsBlocks
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors
+> Task :buildSrc:generateScriptPluginAdapters
+> Task :buildSrc:pluginDescriptors
+> Task :buildSrc:processResources
+> Task :buildSrc:compileKotlin
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+Errors during XML parse:
+Additionally, the fallback loader failed to parse the XML.
+Errors during XML parse:
+Additionally, the fallback loader failed to parse the XML.
+Checking the license for package Android SDK Build-Tools 34 in /usr/local/share/android-sdk/licenses
+License for package Android SDK Build-Tools 34 accepted.
+Preparing "Install Android SDK Build-Tools 34 v.34.0.0".
+"Install Android SDK Build-Tools 34 v.34.0.0" ready.
+Installing Android SDK Build-Tools 34 in /usr/local/share/android-sdk/build-tools/34.0.0
+"Install Android SDK Build-Tools 34 v.34.0.0" complete.
+"Install Android SDK Build-Tools 34 v.34.0.0" finished.
+Checking the license for package Android SDK Platform 35 in /usr/local/share/android-sdk/licenses
+License for package Android SDK Platform 35 accepted.
+Preparing "Install Android SDK Platform 35 (revision 2)".
+"Install Android SDK Platform 35 (revision 2)" ready.
+Installing Android SDK Platform 35 in /usr/local/share/android-sdk/platforms/android-35
+"Install Android SDK Platform 35 (revision 2)" complete.
+"Install Android SDK Platform 35 (revision 2)" finished.
+> Task :presentation-core:preBuild UP-TO-DATE
+> Task :data:preBuild UP-TO-DATE
+> Task :presentation-core:preReleaseBuild UP-TO-DATE
+> Task :source-api:preBuild UP-TO-DATE
+> Task :domain:preBuild UP-TO-DATE
+> Task :core-metadata:preBuild UP-TO-DATE
+> Task :presentation-widget:preBuild UP-TO-DATE
+> Task :data:preReleaseBuild UP-TO-DATE
+> Task :domain:preReleaseBuild UP-TO-DATE
+> Task :presentation-widget:preReleaseBuild UP-TO-DATE
+> Task :source-api:preReleaseBuild UP-TO-DATE
+> Task :core-metadata:preReleaseBuild UP-TO-DATE
+> Task :presentation-widget:generateReleaseResValues
+> Task :domain:generateReleaseResValues
+> Task :data:generateReleaseResValues
+> Task :presentation-core:generateReleaseResValues
+> Task :source-api:generateReleaseResValues
+> Task :core-metadata:generateReleaseResValues
+> Task :core-metadata:generateReleaseResources
+> Task :source-api:generateReleaseResources
+> Task :presentation-widget:generateReleaseResources
+> Task :presentation-core:generateReleaseResources
+> Task :data:generateReleaseResources FROM-CACHE
+> Task :domain:generateReleaseResources FROM-CACHE
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDevBenchmarkBuild UP-TO-DATE
+> Task :data:packageReleaseResources
+> Task :core-metadata:packageReleaseResources
+> Task :source-api:packageReleaseResources
+> Task :domain:packageReleaseResources
+> Task :core:common:preBuild UP-TO-DATE
+> Task :source-local:preBuild UP-TO-DATE
+> Task :core:archive:preBuild UP-TO-DATE
+> Task :core:common:preReleaseBuild UP-TO-DATE
+> Task :core:archive:preReleaseBuild UP-TO-DATE
+> Task :source-local:preReleaseBuild UP-TO-DATE
+> Task :source-local:generateReleaseResValues FROM-CACHE
+> Task :core:archive:generateReleaseResValues FROM-CACHE
+> Task :core:common:generateReleaseResValues FROM-CACHE
+> Task :core:archive:generateReleaseResources FROM-CACHE
+> Task :core:common:generateReleaseResources FROM-CACHE
+> Task :source-local:generateReleaseResources FROM-CACHE
+> Task :core:common:packageReleaseResources
+> Task :core:archive:packageReleaseResources
+> Task :source-local:packageReleaseResources
+> Task :presentation-core:packageReleaseResources
+> Task :presentation-widget:packageReleaseResources
+> Task :i18n:generateMRcommonMain
+> Task :data:writeReleaseAarMetadata
+> Task :source-local:writeReleaseAarMetadata
+> Task :core-metadata:writeReleaseAarMetadata
+> Task :core:common:writeReleaseAarMetadata
+> Task :core-metadata:extractDeepLinksRelease
+> Task :core-metadata:processReleaseManifest
+> Task :data:extractDeepLinksRelease FROM-CACHE
+> Task :presentation-widget:writeReleaseAarMetadata
+> Task :domain:extractDeepLinksRelease FROM-CACHE
+> Task :presentation-core:writeReleaseAarMetadata
+> Task :presentation-core:extractDeepLinksRelease FROM-CACHE
+> Task :core:archive:writeReleaseAarMetadata
+> Task :presentation-widget:extractDeepLinksRelease FROM-CACHE
+> Task :presentation-widget:processReleaseManifest
+> Task :source-api:extractDeepLinksRelease FROM-CACHE
+> Task :source-api:writeReleaseAarMetadata
+> Task :source-local:extractDeepLinksRelease FROM-CACHE
+> Task :i18n:generateMRandroidMain
+> Task :i18n:generateMRandroidRelease SKIPPED
+> Task :i18n:generateLocalesConfig UP-TO-DATE
+> Task :i18n:generateMRandroidDebug SKIPPED
+> Task :i18n:generateMRandroidInstrumentedTest
+> Task :i18n:generateMRandroidInstrumentedTestDebug SKIPPED
+> Task :i18n:generateMRcommonTest
+> Task :i18n:generateMRandroidUnitTest
+> Task :i18n:generateMRandroidUnitTestDebug SKIPPED
+> Task :i18n:generateMRandroidUnitTestRelease SKIPPED
+> Task :i18n:preBuild
+> Task :i18n:preReleaseBuild
+> Task :i18n:generateReleaseResValues FROM-CACHE
+> Task :i18n:generateReleaseResources
+> Task :i18n:packageReleaseResources
+> Task :domain:processReleaseManifest
+> Task :i18n:extractDeepLinksRelease FROM-CACHE
+> Task :source-local:processReleaseManifest
+> Task :core:archive:extractDeepLinksRelease FROM-CACHE
+> Task :i18n:processReleaseManifest
+> Task :core:common:extractDeepLinksRelease FROM-CACHE
+> Task :core:common:processReleaseManifest
+> Task :core-metadata:compileReleaseLibraryResources
+> Task :domain:writeReleaseAarMetadata
+> Task :data:processReleaseManifest
+> Task :core:archive:processReleaseManifest
+> Task :i18n:writeReleaseAarMetadata
+> Task :data:compileReleaseLibraryResources FROM-CACHE
+> Task :source-api:processReleaseManifest
+> Task :presentation-core:processReleaseManifest
+> Task :presentation-core:compileReleaseLibraryResources
+> Task :data:parseReleaseLocalResources
+> Task :core-metadata:parseReleaseLocalResources
+> Task :domain:parseReleaseLocalResources
+> Task :source-api:parseReleaseLocalResources
+> Task :core:common:parseReleaseLocalResources
+> Task :domain:compileReleaseLibraryResources FROM-CACHE
+> Task :source-api:compileReleaseLibraryResources FROM-CACHE
+> Task :source-local:compileReleaseLibraryResources FROM-CACHE
+> Task :core:common:compileReleaseLibraryResources FROM-CACHE
+> Task :core:archive:parseReleaseLocalResources FROM-CACHE
+> Task :source-local:parseReleaseLocalResources FROM-CACHE
+> Task :core-metadata:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :source-api:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :i18n:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :presentation-widget:parseReleaseLocalResources
+> Task :i18n:javaPreCompileRelease
+> Task :core:common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :presentation-core:parseReleaseLocalResources
+> Task :source-api:javaPreCompileRelease FROM-CACHE
+> Task :core:common:javaPreCompileRelease FROM-CACHE
+> Task :core-metadata:javaPreCompileRelease FROM-CACHE
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :i18n:parseReleaseLocalResources
+> Task :presentation-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :domain:javaPreCompileRelease FROM-CACHE
+> Task :presentation-widget:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :presentation-core:javaPreCompileRelease FROM-CACHE
+> Task :source-local:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :presentation-widget:javaPreCompileRelease FROM-CACHE
+> Task :source-local:javaPreCompileRelease FROM-CACHE
+> Task :core-metadata:preDebugBuild UP-TO-DATE
+> Task :domain:preDebugBuild UP-TO-DATE
+> Task :core-metadata:generateDebugResValues FROM-CACHE
+> Task :domain:generateDebugResValues FROM-CACHE
+> Task :core-metadata:generateDebugResources
+> Task :domain:generateDebugResources
+> Task :domain:packageDebugResources
+> Task :presentation-core:preDebugBuild UP-TO-DATE
+> Task :core-metadata:packageDebugResources
+> Task :presentation-widget:preDebugBuild UP-TO-DATE
+> Task :presentation-widget:generateDebugResValues FROM-CACHE
+> Task :presentation-core:generateDebugResValues FROM-CACHE
+> Task :presentation-core:generateDebugResources
+> Task :presentation-widget:generateDebugResources
+> Task :presentation-core:packageDebugResources
+> Task :source-api:preDebugBuild UP-TO-DATE
+> Task :source-api:generateDebugResValues FROM-CACHE
+> Task :source-api:generateDebugResources FROM-CACHE
+> Task :presentation-widget:packageDebugResources
+> Task :source-local:preDebugBuild UP-TO-DATE
+> Task :source-local:generateDebugResValues FROM-CACHE
+> Task :source-local:generateDebugResources FROM-CACHE
+> Task :source-api:packageDebugResources
+> Task :core:common:preDebugBuild UP-TO-DATE
+> Task :core:common:generateDebugResValues FROM-CACHE
+> Task :core:common:generateDebugResources FROM-CACHE
+> Task :source-local:packageDebugResources
+> Task :core:common:packageDebugResources
+> Task :domain:writeDebugAarMetadata
+> Task :core-metadata:writeDebugAarMetadata
+> Task :presentation-core:writeDebugAarMetadata
+> Task :presentation-widget:writeDebugAarMetadata
+> Task :i18n:compileReleaseLibraryResources
+> Task :source-local:writeDebugAarMetadata
+> Task :core-metadata:extractDeepLinksDebug FROM-CACHE
+> Task :core-metadata:processDebugManifest FROM-CACHE
+> Task :domain:extractDeepLinksDebug FROM-CACHE
+> Task :presentation-widget:compileReleaseLibraryResources
+> Task :presentation-core:extractDeepLinksDebug FROM-CACHE
+> Task :domain:processDebugManifest FROM-CACHE
+> Task :presentation-widget:extractDeepLinksDebug FROM-CACHE
+> Task :presentation-core:processDebugManifest FROM-CACHE
+> Task :source-api:extractDeepLinksDebug FROM-CACHE
+> Task :presentation-widget:processDebugManifest FROM-CACHE
+> Task :source-local:extractDeepLinksDebug FROM-CACHE
+> Task :source-api:processDebugManifest FROM-CACHE
+> Task :core:common:extractDeepLinksDebug FROM-CACHE
+> Task :source-local:processDebugManifest FROM-CACHE
+> Task :core:common:processDebugManifest FROM-CACHE
+> Task :core:common:writeDebugAarMetadata
+> Task :source-api:parseDebugLocalResources FROM-CACHE
+> Task :core-metadata:parseDebugLocalResources FROM-CACHE
+> Task :domain:parseDebugLocalResources FROM-CACHE
+> Task :core:common:parseDebugLocalResources FROM-CACHE
+> Task :core-metadata:compileDebugLibraryResources
+> Task :presentation-core:compileDebugLibraryResources
+> Task :presentation-core:parseDebugLocalResources FROM-CACHE
+> Task :domain:compileDebugLibraryResources
+> Task :source-api:compileDebugLibraryResources FROM-CACHE
+> Task :presentation-widget:parseDebugLocalResources FROM-CACHE
+> Task :source-local:compileDebugLibraryResources FROM-CACHE
+> Task :core:common:compileDebugLibraryResources FROM-CACHE
+> Task :source-local:parseDebugLocalResources FROM-CACHE
+> Task :core:common:javaPreCompileDebug FROM-CACHE
+> Task :source-api:javaPreCompileDebug FROM-CACHE
+> Task :core-metadata:javaPreCompileDebug FROM-CACHE
+> Task :domain:javaPreCompileDebug FROM-CACHE
+> Task :presentation-core:javaPreCompileDebug FROM-CACHE
+> Task :presentation-widget:javaPreCompileDebug FROM-CACHE
+> Task :core-metadata:preDebugUnitTestBuild UP-TO-DATE
+> Task :source-local:javaPreCompileDebug FROM-CACHE
+> Task :domain:preDebugUnitTestBuild UP-TO-DATE
+> Task :core-metadata:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :domain:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :domain:preReleaseUnitTestBuild UP-TO-DATE
+> Task :core-metadata:preReleaseUnitTestBuild UP-TO-DATE
+> Task :core-metadata:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :domain:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :presentation-core:preDebugUnitTestBuild UP-TO-DATE
+> Task :macrobenchmark:test UP-TO-DATE
+> Task :presentation-widget:preDebugUnitTestBuild UP-TO-DATE
+> Task :presentation-core:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :presentation-core:preReleaseUnitTestBuild UP-TO-DATE
+> Task :presentation-widget:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :presentation-widget:preReleaseUnitTestBuild UP-TO-DATE
+> Task :presentation-core:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :presentation-widget:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :source-api:preDebugUnitTestBuild UP-TO-DATE
+> Task :source-local:preDebugUnitTestBuild UP-TO-DATE
+> Task :source-api:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :source-local:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :source-api:preReleaseUnitTestBuild UP-TO-DATE
+> Task :source-local:preReleaseUnitTestBuild UP-TO-DATE
+> Task :source-api:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :core:common:preDebugUnitTestBuild UP-TO-DATE
+> Task :source-local:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :core:common:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :core:common:preReleaseUnitTestBuild UP-TO-DATE
+> Task :source-api:writeDebugAarMetadata
+> Task :core:common:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :presentation-widget:compileDebugLibraryResources
+> Task :core:archive:compileReleaseLibraryResources FROM-CACHE
+> Task :core:archive:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:archive:javaPreCompileRelease FROM-CACHE
+> Task :core:archive:preDebugBuild UP-TO-DATE
+> Task :core:archive:generateDebugResValues FROM-CACHE
+> Task :core:archive:generateDebugResources FROM-CACHE
+> Task :core:archive:packageDebugResources
+> Task :core:archive:writeDebugAarMetadata
+> Task :core:archive:extractDeepLinksDebug FROM-CACHE
+> Task :core:archive:processDebugManifest FROM-CACHE
+> Task :core:archive:parseDebugLocalResources FROM-CACHE
+> Task :core:archive:compileDebugLibraryResources FROM-CACHE
+> Task :core:archive:generateReleaseRFile
+> Task :core:archive:javaPreCompileDebug FROM-CACHE
+> Task :core:archive:generateDebugRFile
+> Task :i18n:preDebugBuild
+> Task :i18n:generateDebugResValues FROM-CACHE
+> Task :i18n:generateDebugResources
+> Task :i18n:generateReleaseRFile
+> Task :i18n:packageDebugResources
+> Task :i18n:extractDeepLinksDebug FROM-CACHE
+> Task :i18n:processDebugManifest FROM-CACHE
+> Task :i18n:parseDebugLocalResources FROM-CACHE
+> Task :i18n:writeDebugAarMetadata
+> Task :data:javaPreCompileRelease FROM-CACHE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :data:generateDebugResValues FROM-CACHE
+> Task :data:generateDebugResources FROM-CACHE
+> Task :data:packageDebugResources
+> Task :data:extractDeepLinksDebug FROM-CACHE
+> Task :data:processDebugManifest FROM-CACHE
+> Task :data:compileDebugLibraryResources FROM-CACHE
+> Task :data:parseDebugLocalResources FROM-CACHE
+> Task :data:writeDebugAarMetadata
+> Task :data:javaPreCompileDebug FROM-CACHE
+> Task :data:preDebugUnitTestBuild UP-TO-DATE
+> Task :data:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :data:preReleaseUnitTestBuild UP-TO-DATE
+> Task :data:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :i18n:generateDebugRFile FROM-CACHE
+> Task :i18n:compileDebugLibraryResources
+> Task :data:generateReleaseDatabaseInterface
+> Task :i18n:javaPreCompileDebug FROM-CACHE
+> Task :i18n:preDebugUnitTestBuild
+> Task :data:generateDebugDatabaseInterface
+> Task :core:archive:preDebugUnitTestBuild UP-TO-DATE
+> Task :i18n:generateDebugUnitTestStubRFile
+> Task :i18n:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :i18n:preReleaseUnitTestBuild
+> Task :i18n:generateReleaseUnitTestStubRFile FROM-CACHE
+> Task :i18n:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :core:archive:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :core:archive:preReleaseUnitTestBuild UP-TO-DATE
+> Task :core:archive:generateDebugUnitTestStubRFile
+> Task :core:archive:javaPreCompileReleaseUnitTest FROM-CACHE
+> Task :core:archive:generateReleaseUnitTestStubRFile
+> Task :core:archive:compileReleaseKotlin
+> Task :core:archive:compileDebugKotlin
+> Task :core:archive:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core:archive:processReleaseJavaRes
+> Task :core:archive:compileDebugJavaWithJavac NO-SOURCE
+> Task :core:archive:bundleLibRuntimeToJarDebug
+> Task :core:archive:bundleLibRuntimeToJarRelease
+> Task :core:archive:bundleLibCompileToJarDebug
+> Task :core:archive:bundleLibCompileToJarRelease
+> Task :core:archive:processDebugJavaRes
+> Task :core:archive:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core:archive:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:archive:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core:archive:testDebugUnitTest NO-SOURCE
+> Task :core:archive:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :core:archive:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core:archive:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core:archive:testReleaseUnitTest NO-SOURCE
+> Task :core:archive:test UP-TO-DATE
+> Task :i18n:compileDebugKotlinAndroid
+> Task :i18n:compileReleaseKotlinAndroid
+> Task :i18n:compileReleaseJavaWithJavac NO-SOURCE
+> Task :i18n:bundleLibCompileToJarRelease
+> Task :i18n:bundleLibRuntimeToJarRelease
+> Task :i18n:processReleaseJavaRes
+> Task :i18n:compileDebugJavaWithJavac NO-SOURCE
+> Task :i18n:bundleLibCompileToJarDebug
+> Task :i18n:bundleLibRuntimeToJarDebug
+> Task :i18n:processDebugJavaRes
+> Task :i18n:compileDebugUnitTestKotlinAndroid NO-SOURCE
+> Task :i18n:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :i18n:processDebugUnitTestJavaRes NO-SOURCE
+> Task :i18n:testDebugUnitTest NO-SOURCE
+> Task :i18n:compileReleaseUnitTestKotlinAndroid NO-SOURCE
+> Task :i18n:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :i18n:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :i18n:testReleaseUnitTest NO-SOURCE
+> Task :i18n:test UP-TO-DATE
+> Task :core:common:generateReleaseRFile
+> Task :core:common:generateDebugRFile
+> Task :source-api:generateReleaseRFile
+> Task :source-api:generateDebugRFile
+> Task :core-metadata:generateReleaseRFile
+> Task :core-metadata:generateDebugRFile FROM-CACHE
+> Task :core-metadata:generateDebugUnitTestStubRFile
+> Task :core-metadata:generateReleaseUnitTestStubRFile FROM-CACHE
+> Task :core:common:generateReleaseUnitTestStubRFile
+> Task :core:common:generateDebugUnitTestStubRFile
+> Task :source-api:generateDebugUnitTestStubRFile
+> Task :source-api:generateReleaseUnitTestStubRFile
+> Task :domain:generateReleaseRFile
+> Task :source-local:generateReleaseRFile
+> Task :domain:generateDebugRFile
+> Task :source-local:generateReleaseUnitTestStubRFile
+> Task :source-local:generateDebugRFile FROM-CACHE
+> Task :source-local:generateDebugUnitTestStubRFile FROM-CACHE
+> Task :domain:generateReleaseUnitTestStubRFile
+> Task :domain:generateDebugUnitTestStubRFile
+> Task :data:generateReleaseRFile
+> Task :data:generateDebugRFile FROM-CACHE
+> Task :data:generateDebugUnitTestStubRFile
+> Task :data:generateReleaseUnitTestStubRFile
+
+> Task :core:common:compileDebugKotlin
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/OkHttpExtensions.kt:134:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/OkHttpExtensions.kt:139:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/interceptor/WebViewInterceptor.kt:59:13 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/util/system/WebViewUtil.kt:71:9 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+
+> Task :core:common:compileReleaseKotlin
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/OkHttpExtensions.kt:134:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/OkHttpExtensions.kt:139:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/network/interceptor/WebViewInterceptor.kt:59:13 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/core/common/src/main/kotlin/eu/kanade/tachiyomi/util/system/WebViewUtil.kt:71:9 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+
+> Task :core:common:compileDebugJavaWithJavac NO-SOURCE
+> Task :core:common:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core:common:processReleaseJavaRes
+> Task :core:common:bundleLibRuntimeToJarRelease
+> Task :core:common:bundleLibCompileToJarRelease
+> Task :core:common:bundleLibCompileToJarDebug
+> Task :core:common:processDebugJavaRes
+> Task :core:common:bundleLibRuntimeToJarDebug
+> Task :core:common:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core:common:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:common:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core:common:testDebugUnitTest NO-SOURCE
+> Task :core:common:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :core:common:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core:common:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core:common:testReleaseUnitTest NO-SOURCE
+> Task :core:common:test UP-TO-DATE
+> Task :source-api:compileReleaseKotlinAndroid
+> Task :source-api:compileDebugKotlinAndroid
+> Task :source-api:compileReleaseJavaWithJavac NO-SOURCE
+> Task :source-api:bundleLibCompileToJarRelease
+> Task :source-api:bundleLibRuntimeToJarRelease
+> Task :source-api:processReleaseJavaRes
+> Task :source-api:compileDebugJavaWithJavac NO-SOURCE
+> Task :source-api:bundleLibCompileToJarDebug
+> Task :source-api:bundleLibRuntimeToJarDebug
+> Task :source-api:processDebugJavaRes
+> Task :source-api:compileDebugUnitTestKotlinAndroid NO-SOURCE
+> Task :source-api:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :source-api:processDebugUnitTestJavaRes NO-SOURCE
+> Task :source-api:testDebugUnitTest NO-SOURCE
+> Task :source-api:compileReleaseUnitTestKotlinAndroid NO-SOURCE
+> Task :source-api:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :source-api:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :source-api:testReleaseUnitTest NO-SOURCE
+> Task :source-api:test UP-TO-DATE
+> Task :core-metadata:compileDebugKotlin
+> Task :core-metadata:compileReleaseKotlin
+> Task :core-metadata:compileReleaseJavaWithJavac NO-SOURCE
+> Task :core-metadata:processReleaseJavaRes
+> Task :core-metadata:bundleLibRuntimeToJarRelease
+> Task :core-metadata:bundleLibCompileToJarRelease
+> Task :core-metadata:compileDebugJavaWithJavac NO-SOURCE
+> Task :core-metadata:processDebugJavaRes
+> Task :core-metadata:bundleLibCompileToJarDebug
+> Task :core-metadata:bundleLibRuntimeToJarDebug
+> Task :core-metadata:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :core-metadata:compileDebugUnitTestKotlin NO-SOURCE
+> Task :core-metadata:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core-metadata:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core-metadata:testDebugUnitTest NO-SOURCE
+> Task :core-metadata:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core-metadata:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core-metadata:testReleaseUnitTest NO-SOURCE
+> Task :core-metadata:test UP-TO-DATE
+> Task :domain:compileDebugKotlin
+> Task :domain:compileReleaseKotlin
+> Task :domain:compileReleaseJavaWithJavac NO-SOURCE
+> Task :domain:processReleaseJavaRes
+> Task :domain:compileDebugJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibRuntimeToJarRelease
+> Task :domain:bundleLibCompileToJarRelease
+> Task :domain:processDebugJavaRes
+> Task :domain:bundleLibCompileToJarDebug
+> Task :domain:bundleLibRuntimeToJarDebug
+> Task :source-local:compileReleaseKotlinAndroid
+> Task :source-local:compileReleaseJavaWithJavac NO-SOURCE
+> Task :source-local:bundleLibCompileToJarRelease
+> Task :source-local:bundleLibRuntimeToJarRelease
+> Task :source-local:processReleaseJavaRes
+> Task :source-local:compileReleaseUnitTestKotlinAndroid NO-SOURCE
+> Task :source-local:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :source-local:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :source-local:testReleaseUnitTest NO-SOURCE
+> Task :domain:compileReleaseUnitTestKotlin
+> Task :domain:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processReleaseUnitTestJavaRes
+> Task :domain:compileDebugUnitTestKotlin
+> Task :source-local:compileDebugKotlinAndroid
+> Task :source-local:compileDebugJavaWithJavac NO-SOURCE
+> Task :source-local:processDebugJavaRes
+> Task :source-local:bundleLibRuntimeToJarDebug
+> Task :source-local:bundleLibCompileToJarDebug
+> Task :source-local:compileDebugUnitTestKotlinAndroid NO-SOURCE
+> Task :source-local:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :source-local:processDebugUnitTestJavaRes NO-SOURCE
+> Task :source-local:testDebugUnitTest NO-SOURCE
+> Task :source-local:test UP-TO-DATE
+> Task :data:compileReleaseKotlin
+> Task :data:compileReleaseJavaWithJavac NO-SOURCE
+> Task :data:processReleaseJavaRes
+> Task :data:bundleLibCompileToJarRelease
+> Task :data:bundleLibRuntimeToJarRelease
+> Task :data:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :data:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :data:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :data:testReleaseUnitTest NO-SOURCE
+> Task :data:compileDebugKotlin
+> Task :data:compileDebugJavaWithJavac NO-SOURCE
+> Task :data:processDebugJavaRes
+> Task :data:bundleLibRuntimeToJarDebug
+> Task :data:bundleLibCompileToJarDebug
+> Task :data:compileDebugUnitTestKotlin NO-SOURCE
+> Task :data:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :data:processDebugUnitTestJavaRes NO-SOURCE
+> Task :data:testDebugUnitTest NO-SOURCE
+> Task :data:test UP-TO-DATE
+
+> Task :domain:testReleaseUnitTest
+
+ChapterRecognitionTest > Basic Ch prefix with decimal() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix() PASSED
+
+ChapterRecognitionTest > Number after unwanted tag() PASSED
+
+ChapterRecognitionTest > Chapter title containing special and vol() PASSED
+
+ChapterRecognitionTest > Name containing one number and decimal() PASSED
+
+ChapterRecognitionTest > Chapter containing dot v2() PASSED
+
+ChapterRecognitionTest > Chapters ending with s() PASSED
+
+ChapterRecognitionTest > Unparseable chapter() PASSED
+
+ChapterRecognitionTest > Chapters containing season() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number decimal() PASSED
+
+ChapterRecognitionTest > Extreme case() PASSED
+
+ChapterRecognitionTest > Number in manga title() PASSED
+
+ChapterRecognitionTest > Chapters containing ordinals() PASSED
+
+ChapterRecognitionTest > Chapter title containing hyphens() PASSED
+
+ChapterRecognitionTest > Chapter with version before number() PASSED
+
+ChapterRecognitionTest > Chapter title containing extra and vol() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix with alpha postfix() PASSED
+
+ChapterRecognitionTest > Name containing one number and alpha() PASSED
+
+ChapterRecognitionTest > Extreme case with alpha() PASSED
+
+ChapterRecognitionTest > Space between ch x() PASSED
+
+ChapterRecognitionTest > Version attached to chapter number() PASSED
+
+ChapterRecognitionTest > Chapter title with ch substring() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number alpha() PASSED
+
+ChapterRecognitionTest > Chapter with alpha without dot() PASSED
+
+ChapterRecognitionTest > Chapter title containing commas() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix with space after period() PASSED
+
+ChapterRecognitionTest > Chapter title containing omake (japanese extra) and vol() PASSED
+
+ChapterRecognitionTest > Name containing one number() PASSED
+
+ChapterRecognitionTest > Number after manga title with chapter in chapter title case() PASSED
+
+ChapterRecognitionTest > Chapter with time in title() PASSED
+
+ChapterRecognitionTest > Extreme case with decimal() PASSED
+
+ChapterRecognitionTest > Chapters in format sx - chapter xx() PASSED
+
+ChapterRecognitionTest > Chapter containing multiple zeros() PASSED
+
+MissingChaptersTest > missingChaptersCount returns number of missing chapters() PASSED
+
+MissingChaptersTest > missingChaptersCount returns 0 when all unknown chapter numbers() PASSED
+
+MissingChaptersTest > calculateChapterGap returns 0 if either are not valid chapter numbers() PASSED
+
+MissingChaptersTest > calculateChapterGap returns difference() PASSED
+
+MissingChaptersTest > missingChaptersCount handles repeated base chapter numbers() PASSED
+
+MissingChaptersTest > missingChaptersCount returns 0 when empty list() PASSED
+
+LibraryFlagsTest > Test Flag plus operator (LibrarySort)() PASSED
+
+LibraryFlagsTest > Test Flag plus operator with old flag as base() PASSED
+
+LibraryFlagsTest > Test Flag plus operator() PASSED
+
+LibraryFlagsTest > Check the amount of flags() PASSED
+
+LibraryFlagsTest > Test default flags() PASSED
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :domain:testReleaseUnitTest
+
+FetchIntervalTest > returns interval of 1 day when chapters are released every 1 day() PASSED
+
+FetchIntervalTest > returns interval based on more recent chapters() PASSED
+
+FetchIntervalTest > returns interval based on smaller subset of recent chapters if very few chapters() PASSED
+
+FetchIntervalTest > returns interval of 2 days when chapters are released every 2 days() PASSED
+
+FetchIntervalTest > returns interval of 1 day when delta is less than 1 day() PASSED
+
+FetchIntervalTest > returns interval of 7 days when multiple chapters in 2 days() PASSED
+
+FetchIntervalTest > returns interval with floored value when interval is decimal() PASSED
+
+FetchIntervalTest > returns interval of 1 day when chapters are released just below every 2 days() PASSED
+
+FetchIntervalTest > returns interval of 7 days when multiple chapters in 1 day() PASSED
+
+FetchIntervalTest > returns default interval of 7 days when not enough distinct days() PASSED
+
+GetApplicationReleaseTest > When has no update expect no new update() PASSED
+
+GetApplicationReleaseTest > When has update expect new update() PASSED
+
+GetApplicationReleaseTest > When has update but is third party expect third party installation() PASSED
+
+GetApplicationReleaseTest > When now is before three days expect no new update() PASSED
+
+GetApplicationReleaseTest > When has update but is preview expect new update() PASSED
+
+> Task :domain:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processDebugUnitTestJavaRes
+> Task :app:dataBindingMergeDependencyArtifactsDevBenchmark
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :domain:testDebugUnitTest
+
+ChapterRecognitionTest > Basic Ch prefix with decimal() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix() PASSED
+
+ChapterRecognitionTest > Number after unwanted tag() PASSED
+
+ChapterRecognitionTest > Chapter title containing special and vol() PASSED
+
+ChapterRecognitionTest > Name containing one number and decimal() PASSED
+
+ChapterRecognitionTest > Chapter containing dot v2() PASSED
+
+ChapterRecognitionTest > Chapters ending with s() PASSED
+
+ChapterRecognitionTest > Unparseable chapter() PASSED
+
+ChapterRecognitionTest > Chapters containing season() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number decimal() PASSED
+
+ChapterRecognitionTest > Extreme case() PASSED
+
+ChapterRecognitionTest > Number in manga title() PASSED
+
+ChapterRecognitionTest > Chapters containing ordinals() PASSED
+
+ChapterRecognitionTest > Chapter title containing hyphens() PASSED
+
+ChapterRecognitionTest > Chapter with version before number() PASSED
+
+ChapterRecognitionTest > Chapter title containing extra and vol() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix with alpha postfix() PASSED
+
+ChapterRecognitionTest > Name containing one number and alpha() PASSED
+
+ChapterRecognitionTest > Extreme case with alpha() PASSED
+
+ChapterRecognitionTest > Space between ch x() PASSED
+
+ChapterRecognitionTest > Version attached to chapter number() PASSED
+
+ChapterRecognitionTest > Chapter title with ch substring() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number alpha() PASSED
+
+ChapterRecognitionTest > Chapter with alpha without dot() PASSED
+
+ChapterRecognitionTest > Chapter title containing commas() PASSED
+
+ChapterRecognitionTest > Chapter containing manga title and number() PASSED
+
+ChapterRecognitionTest > Basic Ch prefix with space after period() PASSED
+
+ChapterRecognitionTest > Chapter title containing omake (japanese extra) and vol() PASSED
+
+ChapterRecognitionTest > Name containing one number() PASSED
+
+ChapterRecognitionTest > Number after manga title with chapter in chapter title case() PASSED
+
+ChapterRecognitionTest > Chapter with time in title() PASSED
+
+ChapterRecognitionTest > Extreme case with decimal() PASSED
+
+ChapterRecognitionTest > Chapters in format sx - chapter xx() PASSED
+
+ChapterRecognitionTest > Chapter containing multiple zeros() PASSED
+
+MissingChaptersTest > missingChaptersCount returns number of missing chapters() PASSED
+
+MissingChaptersTest > missingChaptersCount returns 0 when all unknown chapter numbers() PASSED
+
+MissingChaptersTest > calculateChapterGap returns 0 if either are not valid chapter numbers() PASSED
+
+MissingChaptersTest > calculateChapterGap returns difference() PASSED
+
+MissingChaptersTest > missingChaptersCount handles repeated base chapter numbers() PASSED
+
+MissingChaptersTest > missingChaptersCount returns 0 when empty list() PASSED
+
+LibraryFlagsTest > Test Flag plus operator (LibrarySort)() PASSED
+
+LibraryFlagsTest > Test Flag plus operator with old flag as base() PASSED
+
+LibraryFlagsTest > Test Flag plus operator() PASSED
+
+LibraryFlagsTest > Check the amount of flags() PASSED
+
+LibraryFlagsTest > Test default flags() PASSED
+
+FetchIntervalTest > returns interval of 1 day when chapters are released every 1 day() PASSED
+
+FetchIntervalTest > returns interval based on more recent chapters() PASSED
+
+FetchIntervalTest > returns interval based on smaller subset of recent chapters if very few chapters() PASSED
+
+FetchIntervalTest > returns interval of 2 days when chapters are released every 2 days() PASSED
+
+FetchIntervalTest > returns interval of 1 day when delta is less than 1 day() PASSED
+
+FetchIntervalTest > returns interval of 7 days when multiple chapters in 2 days() PASSED
+
+FetchIntervalTest > returns interval with floored value when interval is decimal() PASSED
+
+FetchIntervalTest > returns interval of 1 day when chapters are released just below every 2 days() PASSED
+
+FetchIntervalTest > returns interval of 7 days when multiple chapters in 1 day() PASSED
+
+FetchIntervalTest > returns default interval of 7 days when not enough distinct days() PASSED
+
+GetApplicationReleaseTest > When has no update expect no new update() PASSED
+
+GetApplicationReleaseTest > When has update expect new update() PASSED
+
+GetApplicationReleaseTest > When has update but is third party expect third party installation() PASSED
+
+GetApplicationReleaseTest > When now is before three days expect no new update() PASSED
+
+GetApplicationReleaseTest > When has update but is preview expect new update() PASSED
+
+> Task :domain:test
+> Task :presentation-core:generateReleaseRFile
+> Task :app:generateDevBenchmarkResValues FROM-CACHE
+> Task :app:generateDevBenchmarkResources
+> Task :app:prepareDevBenchmarkShortcutXML
+> Task :presentation-core:generateDebugRFile
+> Task :presentation-core:generateDebugUnitTestStubRFile
+> Task :presentation-core:generateReleaseUnitTestStubRFile
+> Task :presentation-widget:generateReleaseRFile
+> Task :presentation-widget:generateDebugRFile
+> Task :presentation-widget:generateReleaseUnitTestStubRFile
+> Task :presentation-widget:generateDebugUnitTestStubRFile
+> Task :app:collectDependencies
+
+> Task :presentation-core:compileReleaseKotlin
+w: Opt-in requirement marker androidx.compose.material.ExperimentalMaterialApi is unresolved. Please make sure it's present in the module dependencies
+w: Opt-in requirement marker coil3.annotation.ExperimentalCoilApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/builder/clone/presentation-core/src/main/java/tachiyomi/presentation/core/components/SettingsItems.kt:222:18 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+
+> Task :presentation-core:compileReleaseJavaWithJavac NO-SOURCE
+
+> Task :presentation-core:compileDebugKotlin
+w: Opt-in requirement marker androidx.compose.material.ExperimentalMaterialApi is unresolved. Please make sure it's present in the module dependencies
+w: Opt-in requirement marker coil3.annotation.ExperimentalCoilApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/builder/clone/presentation-core/src/main/java/tachiyomi/presentation/core/components/SettingsItems.kt:222:18 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+
+> Task :presentation-core:processReleaseJavaRes
+> Task :presentation-core:compileDebugJavaWithJavac NO-SOURCE
+> Task :presentation-core:bundleLibCompileToJarRelease
+> Task :presentation-core:processDebugJavaRes
+> Task :presentation-core:bundleLibRuntimeToJarRelease
+> Task :presentation-core:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :presentation-core:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :presentation-core:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :presentation-core:testReleaseUnitTest NO-SOURCE
+> Task :presentation-core:bundleLibCompileToJarDebug
+> Task :presentation-core:compileDebugUnitTestKotlin NO-SOURCE
+> Task :presentation-core:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :presentation-core:bundleLibRuntimeToJarDebug
+> Task :presentation-core:processDebugUnitTestJavaRes NO-SOURCE
+> Task :presentation-core:testDebugUnitTest NO-SOURCE
+> Task :presentation-core:test UP-TO-DATE
+> Task :app:prepareLibraryDefinitionsDevBenchmark
+> Task :presentation-widget:compileReleaseKotlin
+> Task :presentation-widget:compileDebugKotlin
+> Task :presentation-widget:compileReleaseJavaWithJavac NO-SOURCE
+> Task :presentation-widget:bundleLibRuntimeToJarRelease
+> Task :presentation-widget:bundleLibCompileToJarRelease
+> Task :presentation-widget:processReleaseJavaRes
+> Task :presentation-widget:compileDebugJavaWithJavac NO-SOURCE
+> Task :presentation-widget:bundleLibRuntimeToJarDebug
+> Task :presentation-widget:processDebugJavaRes
+> Task :presentation-widget:bundleLibCompileToJarDebug
+> Task :presentation-widget:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :presentation-widget:compileDebugUnitTestKotlin NO-SOURCE
+> Task :presentation-widget:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :presentation-widget:processDebugUnitTestJavaRes NO-SOURCE
+> Task :presentation-widget:testDebugUnitTest NO-SOURCE
+> Task :presentation-widget:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :presentation-widget:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :presentation-widget:testReleaseUnitTest NO-SOURCE
+> Task :presentation-widget:test UP-TO-DATE
+> Task :app:generateDevBenchmarkBuildConfig
+
+> Task :app:mergeDevBenchmarkResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:mapDevBenchmarkSourceSetPaths
+> Task :app:createDevBenchmarkCompatibleScreenManifests
+> Task :app:extractDeepLinksDevBenchmark FROM-CACHE
+> Task :app:checkDevBenchmarkAarMetadata
+> Task :app:processDevBenchmarkMainManifest
+> Task :app:processDevBenchmarkManifest
+> Task :app:javaPreCompileDevBenchmark FROM-CACHE
+> Task :app:preDevBenchmarkUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDevBenchmarkUnitTest FROM-CACHE
+> Task :app:preDevDebugBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDevDebug
+> Task :app:generateDevDebugResValues FROM-CACHE
+> Task :app:generateDevDebugResources
+> Task :app:prepareDevDebugShortcutXML
+> Task :app:prepareLibraryDefinitionsDevDebug FROM-CACHE
+> Task :app:dataBindingGenBaseClassesDevBenchmark
+> Task :app:generateDevDebugBuildConfig
+> Task :app:processDevBenchmarkManifestForPackage
+> Task :app:checkDevDebugAarMetadata
+> Task :app:mapDevDebugSourceSetPaths
+> Task :app:createDevDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDevDebug FROM-CACHE
+> Task :app:processDevDebugMainManifest
+> Task :app:processDevDebugManifest
+> Task :app:javaPreCompileDevDebug FROM-CACHE
+> Task :app:preDevDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDevDebugUnitTest FROM-CACHE
+> Task :app:preDevPreviewBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDevPreview
+> Task :app:generateDevPreviewResValues FROM-CACHE
+> Task :app:generateDevPreviewResources
+> Task :app:prepareDevPreviewShortcutXML
+> Task :app:prepareLibraryDefinitionsDevPreview FROM-CACHE
+
+> Task :app:mergeDevDebugResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:dataBindingGenBaseClassesDevDebug FROM-CACHE
+> Task :app:generateDevPreviewBuildConfig
+> Task :app:mapDevPreviewSourceSetPaths
+> Task :app:checkDevPreviewAarMetadata
+> Task :app:createDevPreviewCompatibleScreenManifests
+> Task :app:extractDeepLinksDevPreview FROM-CACHE
+> Task :app:processDevPreviewMainManifest
+> Task :app:processDevPreviewManifest
+> Task :app:javaPreCompileDevPreview FROM-CACHE
+> Task :app:preDevPreviewUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDevPreviewUnitTest FROM-CACHE
+> Task :app:preDevReleaseBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDevRelease
+> Task :app:generateDevReleaseResValues FROM-CACHE
+> Task :app:generateDevReleaseResources
+> Task :app:prepareDevReleaseShortcutXML
+> Task :app:prepareLibraryDefinitionsDevRelease FROM-CACHE
+
+> Task :app:mergeDevPreviewResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:processDevBenchmarkResources
+
+> Task :app:mergeDevReleaseResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:processDevPreviewManifestForPackage
+> Task :app:dataBindingGenBaseClassesDevPreview FROM-CACHE
+> Task :app:generateDevReleaseBuildConfig
+> Task :app:checkDevReleaseAarMetadata
+> Task :app:mapDevReleaseSourceSetPaths
+> Task :app:createDevReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDevRelease FROM-CACHE
+> Task :app:processDevReleaseMainManifest
+> Task :app:processDevReleaseManifest
+> Task :app:processDevDebugManifestForPackage
+> Task :app:javaPreCompileDevRelease FROM-CACHE
+> Task :app:preDevReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDevReleaseUnitTest FROM-CACHE
+> Task :app:preStandardDebugBuild UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDevRelease FROM-CACHE
+> Task :app:generateStandardDebugResValues FROM-CACHE
+> Task :app:generateStandardDebugResources
+> Task :app:prepareLibraryDefinitionsStandardDebug FROM-CACHE
+> Task :app:prepareStandardDebugShortcutXML
+> Task :app:dataBindingMergeDependencyArtifactsStandardDebug
+> Task :app:processDevPreviewResources
+> Task :app:processDevReleaseManifestForPackage
+> Task :app:generateStandardDebugBuildConfig
+> Task :app:mapStandardDebugSourceSetPaths
+> Task :app:checkStandardDebugAarMetadata
+> Task :app:createStandardDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksStandardDebug FROM-CACHE
+> Task :app:processStandardDebugMainManifest
+> Task :app:processStandardDebugManifest
+> Task :app:javaPreCompileStandardDebug FROM-CACHE
+> Task :app:preStandardDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileStandardDebugUnitTest FROM-CACHE
+> Task :app:preStandardPreviewBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsStandardPreview
+> Task :app:generateStandardPreviewResValues FROM-CACHE
+> Task :app:generateStandardPreviewResources
+> Task :app:prepareLibraryDefinitionsStandardPreview FROM-CACHE
+> Task :app:prepareStandardPreviewShortcutXML
+
+> Task :app:mergeStandardDebugResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/debug/packageDebugResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:processDevDebugResources
+> Task :app:processStandardDebugManifestForPackage
+> Task :app:dataBindingGenBaseClassesStandardDebug FROM-CACHE
+
+> Task :app:mergeStandardPreviewResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:generateStandardPreviewBuildConfig
+> Task :app:checkStandardPreviewAarMetadata
+> Task :app:mapStandardPreviewSourceSetPaths
+> Task :app:createStandardPreviewCompatibleScreenManifests
+> Task :app:extractDeepLinksStandardPreview FROM-CACHE
+> Task :app:processStandardPreviewMainManifest
+> Task :app:processStandardPreviewManifest
+> Task :app:javaPreCompileStandardPreview FROM-CACHE
+> Task :app:preStandardPreviewUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileStandardPreviewUnitTest FROM-CACHE
+> Task :app:preStandardReleaseBuild UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsStandardRelease
+> Task :app:processStandardPreviewManifestForPackage
+> Task :app:generateStandardReleaseResValues FROM-CACHE
+> Task :app:generateStandardReleaseResources
+> Task :app:prepareLibraryDefinitionsStandardRelease FROM-CACHE
+> Task :app:prepareStandardReleaseShortcutXML
+> Task :app:processDevReleaseResources
+
+> Task :app:mergeStandardReleaseResources
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt/values-pt.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nb-rNO/values-nb-rNO.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hi/values-hi.xml:591:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ar/values-ar.xml:811:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bg/values-bg.xml:576:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ro/values-ro.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sr/values-sr.xml:733:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-bn/values-bn.xml:573:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pt-rBR/values-pt-rBR.xml:736:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml:758:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ca/values-ca.xml:753:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lv/values-lv.xml:677:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kk/values-kk.xml:611:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-es/values-es.xml:754:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-da/values-da.xml:287:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fr/values-fr.xml:734:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ne/values-ne.xml:730:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-gl/values-gl.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-in/values-in.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sq/values-sq.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-th/values-th.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-lt/values-lt.xml:608:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eo/values-eo.xml:469:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fi/values-fi.xml:590:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sah/values-sah.xml:350:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-pl/values-pl.xml:761:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fil/values-fil.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cs/values-cs.xml:750:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-it/values-it.xml:744:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-tr/values-tr.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sa/values-sa.xml:503:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-eu/values-eu.xml:530:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-kn/values-kn.xml:440:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-fa/values-fa.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-uk/values-uk.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hr/values-hr.xml:737:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ms/values-ms.xml:689:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-am/values-am.xml:241:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-vi/values-vi.xml:700:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ceb/values-ceb.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nl/values-nl.xml:661:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sc/values-sc.xml:719:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sk/values-sk.xml:565:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-sv/values-sv.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-de/values-de.xml:735:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-hu/values-hu.xml:718:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-el/values-el.xml:715:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-iw/values-iw.xml:669:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rCN/values-zh-rCN.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ja/values-ja.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ru/values-ru.xml:773:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ko/values-ko.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-cv/values-cv.xml:548:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-zh-rTW/values-zh-rTW.xml:716:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-nn/values-nn.xml:235:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+/Users/builder/clone/i18n/build/intermediates/packaged_res/release/packageReleaseResources/values-ka-rGE/values-ka-rGE.xml:365:4: Multiple substitutions specified in non-positional format of string resource string/restore_duration. Did you mean to add the formatted="false" attribute?
+
+> Task :app:dataBindingGenBaseClassesStandardPreview FROM-CACHE
+> Task :app:generateStandardReleaseBuildConfig
+> Task :app:checkStandardReleaseAarMetadata
+> Task :app:mapStandardReleaseSourceSetPaths
+> Task :app:createStandardReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksStandardRelease FROM-CACHE
+> Task :app:processStandardReleaseMainManifest
+> Task :app:processStandardReleaseManifest
+> Task :app:processStandardReleaseManifestForPackage
+> Task :app:javaPreCompileStandardRelease FROM-CACHE
+> Task :app:preStandardReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileStandardReleaseUnitTest FROM-CACHE
+> Task :app:processStandardDebugResources
+> Task :app:dataBindingGenBaseClassesStandardRelease FROM-CACHE
+> Task :app:processStandardPreviewResources
+> Task :app:processStandardReleaseResources
+> Task :app:compileDevBenchmarkKotlin
+> Task :app:compileDevPreviewKotlin
+> Task :app:compileDevDebugKotlin
+> Task :app:compileDevReleaseKotlin
+> Task :app:compileStandardDebugKotlin
+> Task :app:compileStandardPreviewKotlin
+> Task :app:compileStandardReleaseKotlin
+e: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.regex.Matcher.<init>(Matcher.java:247)
+	at java.base/java.util.regex.Pattern.matcher(Pattern.java:1134)
+	at java.base/java.util.regex.Pattern.split(Pattern.java:1262)
+	at java.base/java.util.regex.Pattern.split(Pattern.java:1335)
+	at org.jetbrains.kotlin.name.FqNameUnsafe.pathSegments(FqNameUnsafe.java:158)
+	at org.jetbrains.kotlin.name.FqName.pathSegments(FqName.java:98)
+	at org.jetbrains.kotlin.fir.resolve.transformers.ImportUtilsKt.findLongestExistingPackage(ImportUtils.kt:27)
+	at org.jetbrains.kotlin.fir.resolve.transformers.FirImportResolveTransformer.transformImportForFqName(FirImportResolveTransformer.kt:71)
+	at org.jetbrains.kotlin.fir.resolve.transformers.FirImportResolveTransformer.transformImport(FirImportResolveTransformer.kt:64)
+	at org.jetbrains.kotlin.fir.scopes.impl.FirDefaultSimpleImportingScope.resolve(FirDefaultSimpleImportingScope.kt:27)
+	at org.jetbrains.kotlin.fir.scopes.impl.FirDefaultSimpleImportingScope.<init>(FirDefaultSimpleImportingScope.kt:39)
+	at org.jetbrains.kotlin.fir.scopes.ImportingScopesKt.computeImportingScopes(ImportingScopes.kt:103)
+	at org.jetbrains.kotlin.fir.scopes.ImportingScopesKt.computeImportingScopes$default(ImportingScopes.kt:45)
+	at org.jetbrains.kotlin.fir.scopes.ImportingScopesKt.createImportingScopes(ImportingScopes.kt:39)
+	at org.jetbrains.kotlin.fir.scopes.ImportingScopesKt.createImportingScopes$default(ImportingScopes.kt:32)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirSpecificAnnotationResolveTransformer.withFileAndFileScopes(AbstractFirSpecificAnnotationResolveTransformer.kt:735)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirSpecificAnnotationResolveTransformer.transformFile(AbstractFirSpecificAnnotationResolveTransformer.kt:447)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirSpecificAnnotationResolveTransformer.transformFile(AbstractFirSpecificAnnotationResolveTransformer.kt:46)
+	at org.jetbrains.kotlin.fir.declarations.FirFile.transform(FirFile.kt:46)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirCompilerRequiredAnnotationsResolveTransformer.resolveAnnotations(FirCompilerRequiredAnnotationsResolveTransformer.kt:150)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirCompilerRequiredAnnotationsResolveTransformer.transformFile(FirCompilerRequiredAnnotationsResolveTransformer.kt:135)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.AbstractFirCompilerRequiredAnnotationsResolveTransformer.transformFile(FirCompilerRequiredAnnotationsResolveTransformer.kt:120)
+	at org.jetbrains.kotlin.fir.declarations.FirFile.transform(FirFile.kt:46)
+	at org.jetbrains.kotlin.fir.visitors.FirTransformerUtilKt.transformSingle(FirTransformerUtil.kt:13)
+	at org.jetbrains.kotlin.fir.resolve.transformers.plugin.FirCompilerRequiredAnnotationsResolveProcessor.process(FirCompilerRequiredAnnotationsResolveTransformer.kt:91)
+	at org.jetbrains.kotlin.fir.resolve.transformers.FirTotalResolveProcessor.process(FirTotalResolveProcessor.kt:41)
+	at org.jetbrains.kotlin.fir.pipeline.AnalyseKt.runResolution(analyse.kt:20)
+	at org.jetbrains.kotlin.fir.pipeline.FirUtilsKt.resolveAndCheckFir(firUtils.kt:76)
+	at org.jetbrains.kotlin.fir.pipeline.FirUtilsKt.buildResolveAndCheckFirViaLightTree(firUtils.kt:88)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModuleToAnalyzedFir(jvmCompilerPipeline.kt:319)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModulesUsingFrontendIrAndLightTree(jvmCompilerPipeline.kt:118)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:148)
+
+
+> Task :app:compileStandardReleaseKotlin FAILED
+
+> Task :app:compileDevPreviewKotlin FAILED
+e: java.lang.OutOfMemoryError: Java heap space
+
+
+> Task :app:compileDevReleaseKotlin
+e: java.lang.OutOfMemoryError: Java heap space
+
+
+> Task :app:compileStandardPreviewKotlin
+e: java.lang.OutOfMemoryError: Java heap space
+
+
+> Task :app:compileDevReleaseKotlin FAILED
+> Task :app:compileStandardPreviewKotlin FAILED
+
+> Task :app:compileDevBenchmarkKotlin FAILED
+e: java.lang.OutOfMemoryError: Java heap space
+
+
+> Task :app:compileStandardDebugKotlin FAILED
+e: org.jetbrains.kotlin.codegen.CompilationException: Back-end (JVM) Internal error: Couldn't transform method node:
+invoke (Ljava/lang/Object;Landroidx/compose/ui/Modifier;Ljava/lang/String;Landroidx/compose/ui/graphics/Shape;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V:
+  @Landroidx/compose/runtime/Composable;() // invisible
+    // annotable parameter count: 8 (visible)
+    // annotable parameter count: 8 (invisible)
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 0
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 1
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 2
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 3
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 4
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 5
+   L0
+    LINENUMBER 30 L0
+    ALOAD 6
+    LDC 2070056037
+    INVOKEINTERFACE androidx/compose/runtime/Composer.startRestartGroup (I)Landroidx/compose/runtime/Composer; (itf)
+    ASTORE 6
+    ALOAD 6
+    LDC "C(invoke)P(1,2!1,4)33@1131L58,30@1010L721:MangaCover.kt#m4qb42"
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.sourceInformation (Landroidx/compose/runtime/Composer;Ljava/lang/String;)V
+    ILOAD 7
+    ISTORE 9
+   L1
+    ILOAD 8
+    ICONST_1
+    IAND
+    IFEQ L2
+    ILOAD 9
+    BIPUSH 6
+    IOR
+    ISTORE 9
+    GOTO L3
+   L2
+    ILOAD 7
+    BIPUSH 6
+    IAND
+    IFNE L3
+    ILOAD 9
+    ALOAD 6
+    ALOAD 1
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changedInstance (Ljava/lang/Object;)Z (itf)
+    IFEQ L4
+    ICONST_4
+    GOTO L5
+   L4
+    ICONST_2
+   L5
+    IOR
+    ISTORE 9
+   L3
+    ILOAD 8
+    ICONST_2
+    IAND
+    IFEQ L6
+    ILOAD 9
+    BIPUSH 48
+    IOR
+    ISTORE 9
+    GOTO L7
+   L6
+    ILOAD 7
+    BIPUSH 48
+    IAND
+    IFNE L7
+    ILOAD 9
+    ALOAD 6
+    ALOAD 2
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changed (Ljava/lang/Object;)Z (itf)
+    IFEQ L8
+    BIPUSH 32
+    GOTO L9
+   L8
+    BIPUSH 16
+   L9
+    IOR
+    ISTORE 9
+   L7
+    ILOAD 8
+    ICONST_4
+    IAND
+    IFEQ L10
+    ILOAD 9
+    SIPUSH 384
+    IOR
+    ISTORE 9
+    GOTO L11
+   L10
+    ILOAD 7
+    SIPUSH 384
+    IAND
+    IFNE L11
+    ILOAD 9
+    ALOAD 6
+    ALOAD 3
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changed (Ljava/lang/Object;)Z (itf)
+    IFEQ L12
+    SIPUSH 256
+    GOTO L13
+   L12
+    SIPUSH 128
+   L13
+    IOR
+    ISTORE 9
+   L11
+    ILOAD 7
+    SIPUSH 3072
+    IAND
+    IFNE L14
+    ILOAD 9
+    ILOAD 8
+    BIPUSH 8
+    IAND
+    IFNE L15
+    ALOAD 6
+    ALOAD 4
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changed (Ljava/lang/Object;)Z (itf)
+    IFEQ L15
+    SIPUSH 2048
+    GOTO L16
+   L15
+    SIPUSH 1024
+   L16
+    IOR
+    ISTORE 9
+   L14
+    ILOAD 8
+    BIPUSH 16
+    IAND
+    IFEQ L17
+    ILOAD 9
+    SIPUSH 24576
+    IOR
+    ISTORE 9
+    GOTO L18
+   L17
+    ILOAD 7
+    SIPUSH 24576
+    IAND
+    IFNE L18
+    ILOAD 9
+    ALOAD 6
+    ALOAD 5
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changedInstance (Ljava/lang/Object;)Z (itf)
+    IFEQ L19
+    SIPUSH 16384
+    GOTO L20
+   L19
+    SIPUSH 8192
+   L20
+    IOR
+    ISTORE 9
+   L18
+    ILOAD 8
+    BIPUSH 32
+    IAND
+    IFEQ L21
+    ILOAD 9
+    LDC 196608
+    IOR
+    ISTORE 9
+    GOTO L22
+   L21
+    ILOAD 7
+    LDC 196608
+    IAND
+    IFNE L22
+    ILOAD 9
+    ALOAD 6
+    ALOAD 0
+    INVOKEINTERFACE androidx/compose/runtime/Composer.changed (Ljava/lang/Object;)Z (itf)
+    IFEQ L23
+    LDC 131072
+    GOTO L24
+   L23
+    LDC 65536
+   L24
+    IOR
+    ISTORE 9
+   L22
+    ILOAD 9
+    LDC 74899
+    IAND
+    LDC 74898
+    IF_ICMPNE L25
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.getSkipping ()Z (itf)
+    IFNE L26
+   L25
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.startDefaults ()V (itf)
+    ALOAD 6
+    LDC "27@936L6"
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.sourceInformation (Landroidx/compose/runtime/Composer;Ljava/lang/String;)V
+    ILOAD 7
+    ICONST_1
+    IAND
+    IFEQ L27
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.getDefaultsInvalid ()Z (itf)
+    IFEQ L28
+   L27
+    ILOAD 8
+    ICONST_2
+    IAND
+    IFEQ L29
+   L30
+    LINENUMBER 26 L30
+    GETSTATIC androidx/compose/ui/Modifier.Companion : Landroidx/compose/ui/Modifier$Companion;
+    CHECKCAST androidx/compose/ui/Modifier
+    ASTORE 2
+   L29
+    ILOAD 8
+    ICONST_4
+    IAND
+    IFEQ L31
+   L32
+    LINENUMBER 27 L32
+    LDC ""
+    ASTORE 3
+   L31
+    ILOAD 8
+    BIPUSH 8
+    IAND
+    IFEQ L33
+   L34
+    LINENUMBER 28 L34
+    GETSTATIC androidx/compose/material3/MaterialTheme.INSTANCE : Landroidx/compose/material3/MaterialTheme;
+    ALOAD 6
+    GETSTATIC androidx/compose/material3/MaterialTheme.$stable : I
+    INVOKEVIRTUAL androidx/compose/material3/MaterialTheme.getShapes (Landroidx/compose/runtime/Composer;I)Landroidx/compose/material3/Shapes;
+    INVOKEVIRTUAL androidx/compose/material3/Shapes.getExtraSmall ()Landroidx/compose/foundation/shape/CornerBasedShape;
+    CHECKCAST androidx/compose/ui/graphics/Shape
+    ASTORE 4
+    ILOAD 9
+    SIPUSH -7169
+    IAND
+    ISTORE 9
+   L33
+    ILOAD 8
+    BIPUSH 16
+    IAND
+    IFEQ L35
+   L36
+    LINENUMBER 29 L36
+    ACONST_NULL
+    ASTORE 5
+   L37
+    GOTO L35
+   L28
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.skipToGroupEnd ()V (itf)
+    ILOAD 8
+    BIPUSH 8
+    IAND
+    IFEQ L35
+    ILOAD 9
+    SIPUSH -7169
+    IAND
+    ISTORE 9
+   L35
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.endDefaults ()V (itf)
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.isTraceInProgress ()Z
+    IFEQ L38
+    LDC 2070056037
+    ILOAD 9
+    ICONST_M1
+    LDC "eu.kanade.presentation.manga.components.MangaCover.invoke (MangaCover.kt:29)"
+   L39
+    LINENUMBER 30 L39
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.traceEventStart (IIILjava/lang/String;)V
+   L38
+    LINENUMBER 33 L38
+    NEW androidx/compose/ui/graphics/painter/ColorPainter
+    DUP
+    INVOKESTATIC eu/kanade/presentation/manga/components/MangaCoverKt.access$getCoverPlaceholderColor$p ()J
+    ACONST_NULL
+    INVOKESPECIAL androidx/compose/ui/graphics/painter/ColorPainter.<init> (JLkotlin/jvm/internal/DefaultConstructorMarker;)V
+    ASTORE 10
+   L40
+    LINENUMBER 34 L40
+    GETSTATIC eu/kanade/tachiyomi/R$drawable.cover_error : I
+    ALOAD 6
+    ICONST_0
+    INVOKESTATIC eu/kanade/presentation/util/ResourcesKt.rememberResourceBitmapPainter (ILandroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/painter/BitmapPainter;
+    ASTORE 11
+   L41
+    LINENUMBER 36 L41
+    ALOAD 2
+   L42
+    LINENUMBER 37 L42
+    ALOAD 0
+    GETFIELD eu/kanade/presentation/manga/components/MangaCover.ratio : F
+    ICONST_0
+    ICONST_2
+    ACONST_NULL
+    INVOKESTATIC androidx/compose/foundation/layout/AspectRatioKt.aspectRatio$default (Landroidx/compose/ui/Modifier;FZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+   L43
+    LINENUMBER 38 L43
+    ALOAD 4
+    INVOKESTATIC androidx/compose/ui/draw/ClipKt.clip (Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;)Landroidx/compose/ui/Modifier;
+   L44
+    LINENUMBER 40 L44
+    ALOAD 5
+    IFNULL L45
+   L46
+    LINENUMBER 41 L46
+    GETSTATIC androidx/compose/ui/Modifier.Companion : Landroidx/compose/ui/Modifier$Companion;
+    CHECKCAST androidx/compose/ui/Modifier
+    ICONST_0
+    ACONST_NULL
+   L47
+    LINENUMBER 42 L47
+    GETSTATIC androidx/compose/ui/semantics/Role.Companion : Landroidx/compose/ui/semantics/Role$Companion;
+    INVOKEVIRTUAL androidx/compose/ui/semantics/Role$Companion.getButton-o7Vup1c ()I
+    INVOKESTATIC androidx/compose/ui/semantics/Role.box-impl (I)Landroidx/compose/ui/semantics/Role;
+   L48
+    LINENUMBER 43 L48
+    ALOAD 5
+   L49
+    LINENUMBER 41 L49
+    ICONST_3
+    ACONST_NULL
+    INVOKESTATIC androidx/compose/foundation/ClickableKt.clickable-XHw0xAI$default (Landroidx/compose/ui/Modifier;ZLjava/lang/String;Landroidx/compose/ui/semantics/Role;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+    GOTO L50
+   L45
+    LINENUMBER 46 L45
+    GETSTATIC androidx/compose/ui/Modifier.Companion : Landroidx/compose/ui/Modifier$Companion;
+    CHECKCAST androidx/compose/ui/Modifier
+   L50
+    LINENUMBER 39 L50
+    INVOKEINTERFACE androidx/compose/ui/Modifier.then (Landroidx/compose/ui/Modifier;)Landroidx/compose/ui/Modifier; (itf)
+    ASTORE 12
+   L51
+    LINENUMBER 49 L51
+    GETSTATIC androidx/compose/ui/layout/ContentScale.Companion : Landroidx/compose/ui/layout/ContentScale$Companion;
+    INVOKEVIRTUAL androidx/compose/ui/layout/ContentScale$Companion.getCrop ()Landroidx/compose/ui/layout/ContentScale;
+    ASTORE 13
+   L52
+    LINENUMBER 32 L52
+    ALOAD 1
+   L53
+    LINENUMBER 35 L53
+    ALOAD 3
+   L54
+    LINENUMBER 39 L54
+    ALOAD 12
+   L55
+    LINENUMBER 33 L55
+    ALOAD 10
+    CHECKCAST androidx/compose/ui/graphics/painter/Painter
+   L56
+    LINENUMBER 34 L56
+    ALOAD 11
+    CHECKCAST androidx/compose/ui/graphics/painter/Painter
+    ACONST_NULL
+    ACONST_NULL
+    ACONST_NULL
+    ACONST_NULL
+    ACONST_NULL
+   L57
+    LINENUMBER 49 L57
+    ALOAD 13
+    FCONST_0
+    ACONST_NULL
+    ICONST_0
+    ICONST_0
+    ACONST_NULL
+    ALOAD 6
+    BIPUSH 14
+    ILOAD 9
+    IAND
+    BIPUSH 112
+    ILOAD 9
+    ICONST_3
+    ISHR
+    IAND
+    IOR
+    BIPUSH 6
+    LDC 64480
+   L58
+    LINENUMBER 31 L58
+    INVOKESTATIC coil3/compose/SingletonAsyncImageKt.AsyncImage-Vb_qNX0 (Ljava/lang/Object;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/painter/Painter;Landroidx/compose/ui/graphics/painter/Painter;Landroidx/compose/ui/graphics/painter/Painter;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Alignment;Landroidx/compose/ui/layout/ContentScale;FLandroidx/compose/ui/graphics/ColorFilter;IZLcoil3/compose/EqualityDelegate;Landroidx/compose/runtime/Composer;III)V
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.isTraceInProgress ()Z
+    IFEQ L59
+    INVOKESTATIC androidx/compose/runtime/ComposerKt.traceEventEnd ()V
+   L60
+    GOTO L59
+   L26
+    LINENUMBER 51 L26
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.skipToGroupEnd ()V (itf)
+   L59
+    ALOAD 6
+    INVOKEINTERFACE androidx/compose/runtime/Composer.endRestartGroup ()Landroidx/compose/runtime/ScopeUpdateScope; (itf)
+    DUP
+    IFNULL L61
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    ALOAD 4
+    ALOAD 5
+    ILOAD 7
+    ILOAD 8
+    INVOKEDYNAMIC invoke(Leu/kanade/presentation/manga/components/MangaCover;Ljava/lang/Object;Landroidx/compose/ui/Modifier;Ljava/lang/String;Landroidx/compose/ui/graphics/Shape;Lkotlin/jvm/functions/Function0;II)Lkotlin/jvm/functions/Function2; [
+      // handle kind 0x6 : INVOKESTATIC
+      java/lang/invoke/LambdaMetafactory.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+      // arguments:
+      (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, 
+      // handle kind 0x6 : INVOKESTATIC
+      eu/kanade/presentation/manga/components/MangaCover.invoke$lambda$0(Leu/kanade/presentation/manga/components/MangaCover;Ljava/lang/Object;Landroidx/compose/ui/Modifier;Ljava/lang/String;Landroidx/compose/ui/graphics/Shape;Lkotlin/jvm/functions/Function0;IILandroidx/compose/runtime/Composer;I)Lkotlin/Unit;, 
+      (Landroidx/compose/runtime/Composer;Ljava/lang/Integer;)Lkotlin/Unit;
+    ]
+    INVOKEINTERFACE androidx/compose/runtime/ScopeUpdateScope.updateScope (Lkotlin/jvm/functions/Function2;)V (itf)
+    GOTO L62
+   L61
+    POP
+   L62
+    RETURN
+   L63
+    LOCALVARIABLE $dirty I L1 L63 9
+    LOCALVARIABLE this Leu/kanade/presentation/manga/components/MangaCover; L0 L63 0
+    LOCALVARIABLE data Ljava/lang/Object; L0 L63 1
+    LOCALVARIABLE modifier Landroidx/compose/ui/Modifier; L0 L63 2
+    LOCALVARIABLE contentDescription Ljava/lang/String; L0 L63 3
+    LOCALVARIABLE shape Landroidx/compose/ui/graphics/Shape; L0 L63 4
+    LOCALVARIABLE onClick Lkotlin/jvm/functions/Function0; L0 L63 5
+    LOCALVARIABLE $composer Landroidx/compose/runtime/Composer; L0 L63 6
+    LOCALVARIABLE $changed I L0 L63 7
+    MAXSTACK = 21
+    MAXLOCALS = 14
+
+File is unknown
+The root cause java.lang.OutOfMemoryError was thrown at: unknown
+	at org.jetbrains.kotlin.codegen.TransformationMethodVisitor.visitEnd(TransformationMethodVisitor.kt:89)
+	at org.jetbrains.org.objectweb.asm.MethodVisitor.visitEnd(MethodVisitor.java:783)
+	at org.jetbrains.org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:772)
+	at org.jetbrains.kotlin.backend.jvm.codegen.ClassCodegen.generateMethod(ClassCodegen.kt:453)
+	at org.jetbrains.kotlin.backend.jvm.codegen.ClassCodegen.generate(ClassCodegen.kt:168)
+	at org.jetbrains.kotlin.backend.jvm.FileCodegen.lower(JvmPhases.kt:39)
+	at org.jetbrains.kotlin.backend.common.phaser.PhaseFactoriesKt.createFilePhase$lambda$4(PhaseFactories.kt:71)
+	at org.jetbrains.kotlin.backend.common.phaser.PhaseBuildersKt$createSimpleNamedCompilerPhase$1.phaseBody(PhaseBuilders.kt:69)
+	at org.jetbrains.kotlin.backend.common.phaser.SimpleNamedCompilerPhase.phaseBody(CompilerPhase.kt:226)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:113)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invokeSequential(performByIrFile.kt:62)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invoke(performByIrFile.kt:52)
+	at org.jetbrains.kotlin.backend.common.phaser.PerformByIrFilePhase.invoke(performByIrFile.kt:38)
+	at org.jetbrains.kotlin.backend.common.phaser.NamedCompilerPhase.phaseBody(CompilerPhase.kt:166)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:113)
+	at org.jetbrains.kotlin.backend.common.phaser.CompositePhase.invoke(PhaseBuilders.kt:27)
+	at org.jetbrains.kotlin.backend.common.phaser.CompositePhase.invoke(PhaseBuilders.kt:14)
+	at org.jetbrains.kotlin.backend.common.phaser.NamedCompilerPhase.phaseBody(CompilerPhase.kt:166)
+	at org.jetbrains.kotlin.backend.common.phaser.AbstractNamedCompilerPhase.invoke(CompilerPhase.kt:113)
+	at org.jetbrains.kotlin.backend.common.phaser.CompilerPhaseKt.invokeToplevel(CompilerPhase.kt:62)
+	at org.jetbrains.kotlin.backend.jvm.JvmIrCodegenFactory.invokeCodegen(JvmIrCodegenFactory.kt:371)
+	at org.jetbrains.kotlin.codegen.CodegenFactory.generateModule(CodegenFactory.kt:47)
+	at org.jetbrains.kotlin.backend.jvm.JvmIrCodegenFactory.generateModuleInFrontendIRMode(JvmIrCodegenFactory.kt:433)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.generateCodeFromIr(jvmCompilerPipeline.kt:246)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModulesUsingFrontendIrAndLightTree(jvmCompilerPipeline.kt:142)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:148)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:43)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:103)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:49)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:101)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:464)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:73)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.doCompile(IncrementalCompilerRunner.kt:506)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileImpl(IncrementalCompilerRunner.kt:423)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:301)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:129)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:675)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:92)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1660)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+
+> Task :app:compileDevDebugKotlin
+w: Opt-in requirement marker androidx.compose.material.ExperimentalMaterialApi is unresolved. Please make sure it's present in the module dependencies
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/presentation/manga/components/ChapterTranslationIndicator.kt:145:21 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/presentation/manga/components/ChapterTranslationIndicator.kt:188:21 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/presentation/util/ExceptionFormatter.kt:12:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/presentation/util/FastScrollAnimateItem.kt:7:1 Experimental context receivers are deprecated and will be superseded by context parameters. Please don't use context receivers. You can either pass parameters explicitly or use members with extensions.
+
+See new context parameters proposal: https://github.com/Kotlin/KEEP/blob/context-parameters/proposals/context-parameters.md. During the transition period, neither context receivers nor context parameters will be supported. This warning will become an error in future releases.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/download/DownloadManager.kt:223:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/download/DownloadManager.kt:250:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/download/Downloader.kt:121:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/library/LibraryUpdateNotifier.kt:212:13 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/notification/NotificationReceiver.kt:201:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/notification/NotificationReceiver.kt:227:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/saver/ImageSaver.kt:179:25 Non-public primary constructor is exposed via the generated 'copy()' method of the 'data' class.
+
+The generated 'copy()' will change its visibility in future releases.
+
+To suppress the warning do one of the following:
+- Annotate the data class with the '@ConsistentCopyVisibility' annotation.
+- Use the '-Xconsistent-data-class-copy-visibility' compiler flag.
+- Annotate the data class with the '@ExposedCopyVisibility' annotation 
+  (Discouraged, but can be used to keep binary compatibility).
+
+To learn more, see the documentation of the '@ConsistentCopyVisibility' and '@ExposedCopyVisibility' annotations.
+
+This will become an error in Kotlin 2.1.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/data/track/bangumi/Bangumi.kt:53:20 Condition is always 'true'.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/extension/util/ExtensionInstallActivity.kt:28:43 'static field ACTION_INSTALL_PACKAGE: String' is deprecated. Deprecated in Java.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderActivity.kt:505:16 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/ui/reader/ReaderActivity.kt:507:20 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/tachiyomi/ui/reader/loader/HttpPageLoader.kt:127:13 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/translation/Translator.kt:36:9 This is a delicate API and its use requires care. Make sure you fully read and understand documentation of the declaration that is marked as a delicate API.
+w: file:///Users/builder/clone/app/src/main/java/eu/kanade/translation/translators/GeminiTranslator.kt:76:38 Java type mismatch: inferred type is 'kotlin.String?', but 'kotlin.String' was expected.
+
+FAILURE: Build completed with 6 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDevReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Not enough memory to run compilation. Try to increase it via 'gradle.properties':
+     kotlin.daemon.jvmargs=-Xmx<size>
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDevPreviewKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Not enough memory to run compilation. Try to increase it via 'gradle.properties':
+     kotlin.daemon.jvmargs=-Xmx<size>
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileStandardPreviewKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Not enough memory to run compilation. Try to increase it via 'gradle.properties':
+     kotlin.daemon.jvmargs=-Xmx<size>
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+4: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileStandardReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Not enough memory to run compilation. Try to increase it via 'gradle.properties':
+     kotlin.daemon.jvmargs=-Xmx<size>
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+5: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDevBenchmarkKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Not enough memory to run compilation. Try to increase it via 'gradle.properties':
+     kotlin.daemon.jvmargs=-Xmx<size>
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+6: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileStandardDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 27m 10s
+478 actionable tasks: 316 executed, 162 from cache
+
+
+Build failed :|
+Step 4 script `Run tests` exited with status code 1

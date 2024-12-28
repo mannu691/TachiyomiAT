@@ -31,9 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.view.isVisible
 import eu.kanade.tachiyomi.R
 
-
-class WebtoonTranslationsView :
-    AbstractComposeView {
+class WebtoonTranslationsView : AbstractComposeView {
 
     private val translations: TextTranslations
     private val font: FontFamily

@@ -9,6 +9,7 @@ plugins {
     id("com.github.zellius.shortcut-helper")
     kotlin("plugin.serialization")
     alias(libs.plugins.aboutLibraries)
+    id("com.google.gms.google-services") // Apply Google Services plugin
 }
 
 if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
@@ -272,7 +273,6 @@ dependencies {
     implementation("com.google.mlkit:translate:17.0.2")
     implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
-
 }
 
 androidComponents {
