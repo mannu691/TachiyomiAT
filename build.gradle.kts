@@ -23,17 +23,17 @@ subprojects {
         if (plugins.hasPlugin("com.android.application") || plugins.hasPlugin("com.android.library")) {
             // Apply Google Services plugin
             apply(plugin = "com.google.gms.google-services")
-            
+
             dependencies {
                 // Import the Firebase BoM
-                implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+                add("implementation", platform("com.google.firebase:firebase-bom:32.7.0"))
                 
                 // Add the dependencies for Firebase products you want to use
                 // For example, Firebase Analytics
-                implementation("com.google.firebase:firebase-analytics-ktx")
+                add("implementation", "com.google.firebase:firebase-analytics-ktx")
                 // Add other Firebase dependencies as needed
-                // implementation("com.google.firebase:firebase-auth-ktx")
-                // implementation("com.google.firebase:firebase-firestore-ktx")
+                // add("implementation", "com.google.firebase:firebase-auth-ktx")
+                // add("implementation", "com.google.firebase:firebase-firestore-ktx")
             }
         }
     }
