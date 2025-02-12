@@ -7,7 +7,9 @@
 
 # TachiyomiAT [App](#)
 
-### Full-featured reader
+>[12-02-2025] Note : This project isn't abandoned,but current release might not work as intended, i am currently in process of rebasing it on latest mihon build and making it more robust with better text bubble placement. i don't release dev builds so next release might take some time
+
+### Full-featured reader with Automatic Managa Translations
 Discover,Translate and read manga, webtoons, comics, and more – easier than ever on your Android device.
 
 [![Discord server](https://img.shields.io/discord/801338287012053042.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.com/invite/rkvXfVPRdq)
