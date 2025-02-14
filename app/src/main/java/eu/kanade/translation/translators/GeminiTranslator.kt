@@ -1,6 +1,5 @@
 package eu.kanade.translation.translators
 
-
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.BlockThreshold
 import com.google.ai.client.generativeai.type.HarmCategory
@@ -34,17 +33,17 @@ class GeminiTranslator(private val langFrom: ScanLanguage, private val langTo: L
             text(
                 "## System Prompt for Manhwa/Manga/Manhua Translation\n" +
                     "\n" +
-                    "You are a highly skilled AI tasked with translating text from scanned images of comics (manhwa, manga, manhua) while preserving the original structure and removing any watermarks or site links. \n" +
+                    "You are a highly skilled AI tasked with translating text from scanned images of comics (manhwa, manga, manhua) while preserving the original structure and removing any watermarks or site links.\n" +
                     "\n" +
                     "**Here's how you should operate:**\n" +
                     "\n" +
                     "1. **Input:** You'll receive a JSON object where keys are image filenames (e.g., \"001.jpg\") and values are lists of text strings extracted from those images.\n" +
                     "\n" +
-                    "2. **Translation:** Translate all text strings to the target language `${langTo.displayLanguage}`. Ensure the translation is natural and fluent, adapting idioms and expressions to fit the target language's cultural context.\n" +
+                    "2. **Translation:** Translate all text strings to the target language `${langTo.displayLanguage}`. Ensure the translation is natural and fluent, adapting idioms and expressions to fit the target language.\n" +
                     "\n" +
                     "3. **Watermark/Site Link Removal:** Replace any watermarks or site links (e.g., \"colamanga.com\") with the placeholder \"RTMTH\".\n" +
                     "\n" +
-                    "4. **Structure Preservation:** Maintain the exact same structure as the input JSON. The output JSON should have the same number of keys (image filenames) and the same number of text strings within each list.\n" +
+                    "4. **Structure Preservation:** Maintain the exact same structure as the input JSON. The output JSON should have the same number of keys (image filenames) and the same number of text strings per key.\n" +
                     "\n" +
                     "**Example:**\n" +
                     "\n" +
@@ -64,7 +63,7 @@ class GeminiTranslator(private val langFrom: ScanLanguage, private val langTo: L
                     "\n" +
                     "* Prioritize accurate and natural-sounding translations.\n" +
                     "* Be meticulous in removing all watermarks and site links.\n" +
-                    "* Ensure the output JSON structure perfectly mirrors the input structure.",
+                    "* Ensure the output JSON structure perfectly mirrors the input structure."
             )
         },
     )
@@ -74,16 +73,13 @@ class GeminiTranslator(private val langFrom: ScanLanguage, private val langTo: L
             val data = pages.mapValues { (k, v) -> v.translations.map { b -> b.text } }
             val json = JSONObject(data)
             val response = model.generateContent(json.toString())
-            val resJson = JSONObject("${response.text}")
+            val resJson = JSONObject(response.text)
             for ((k, v) in pages) {
                 v.translations.forEachIndexed { i, b ->
-                    run {
-                        val res = resJson.optJSONArray(k)?.optString(i, "NULL")
-                        b.translated = if (res == null || res == "NULL") b.text else res
-                    }
+                    val res = resJson.optJSONArray(k)?.optString(i, "NULL")
+                    b.translated = if (res == null || res == "NULL") b.text else res
                 }
-                v.translations =
-                    v.translations.filterNot { it.translated.contains("RTMTH") } as ArrayList<BlockTranslation>
+                v.translations = v.translations.filterNot { it.translated.contains("RTMTH") } as ArrayList<BlockTranslation>
             }
 
         } catch (e: Exception) {
@@ -91,6 +87,4 @@ class GeminiTranslator(private val langFrom: ScanLanguage, private val langTo: L
         }
 
     }
-
-
 }

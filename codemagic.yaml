@@ -1,0 +1,34 @@
+workflows:
+  default-workflow:
+    name: Build and Test
+    max_build_duration: 120
+    environment:
+      vars:
+        PROJECT_DIR: "." # Path to your project directory
+        ANDROID_SDK_VERSION: "30"
+      flutter: stable
+
+    scripts:
+      - name: Install dependencies
+        script: |
+          echo y | sdkmanager "platforms;android-$ANDROID_SDK_VERSION"
+          chmod +x ./gradlew
+
+      - name: Run tests
+        script: ./gradlew test
+
+      - name: Build APK
+        script: ./gradlew assembleRelease
+
+      - name: Save artifacts
+        script: cp -r app/build/outputs/apk/release/*.apk $CM_BUILD_DIR
+
+artifacts:
+  - app/build/outputs/apk/release/*.apk
+
+publishing:
+  email:
+    recipients:
+      - your-email@example.com
+    subject: "Your build is ready"
+    body: "The build has been successfully completed. You can download the APK from the artifacts section."
